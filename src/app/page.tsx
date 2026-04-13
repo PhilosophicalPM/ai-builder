@@ -345,7 +345,7 @@ export default function Home() {
             <span className="text-slate-100 font-semibold text-sm">H</span>
           </div>
           <h1 className="text-lg font-bold text-slate-100 tracking-tight">
-            Neural Map
+            AI Builder
           </h1>
         </div>
         <div className="flex items-center gap-6">
