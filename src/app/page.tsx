@@ -29,28 +29,24 @@ interface Message {
 
 const SUGGESTED_PROMPTS = [
   {
-    label: "Why This Role",
-    question: "Why are you interested in this role?",
+    label: "What I've Built with AI",
+    question: "Tell me about the cool AI projects you have worked on.",
   },
   {
-    label: "Experience Summary",
-    question:
-      "Summarise your work experience which is relevant for this role. Provide enough details to allow us to understand and match your experience with the role's requirements.",
+    label: "My AI Stack",
+    question: "What tools and technologies do you use in your AI work?",
   },
   {
-    label: "High Agency Scenario",
-    question:
-      "Share a scenario when you demonstrated high agency. Provide enough details to allow us to understand and empathise with the situation.",
+    label: "How I Built This Bot",
+    question: "How did you build this bot?",
   },
   {
-    label: "Pre-Seed Investment 24/25",
-    question:
-      "If you could invest in any Indian startup's pre-seed/seed round that happened in 2024/2025, which one and what's your investment thesis?",
+    label: "Workflows I'd Rebuild at Razorpay",
+    question: "Which Razorpay workflow would you rebuild with AI and how?",
   },
   {
-    label: "AI Work Examples",
-    question:
-      "Where all in your work role do you use AI? Provide actual examples with details.",
+    label: "Why This Team",
+    question: "Why do you want to join Harshil's AI Hackers team at Razorpay?",
   },
 ];
 
@@ -67,75 +63,80 @@ const CONTACT = {
 };
 
 const CANNED_ANSWERS: Record<string, string> = {
-  "Why are you interested in this role?": `**I am interested in this role because I have the exposure, experience, skills and the inherent interest required for the role.**
+  "Tell me about the cool AI projects you have worked on.": `**Three AI projects I've shipped or am shipping — all in production, all solving real problems, not demos.**
 
-1. **Exposure & Experience:** 5 industries (Travel, Fintech, Edtech, Ecommerce, Quant Investing), 4 levels of scale (0-1 at weTrade, Series B at Scapia, profitable scale at Allen, hyper-scale at Flipkart), 3 roles (PM, Data Scientist, Quant Analyst)
+1. **Bot evaluating another bot (Scapia):**
+We run an LLM customer support bot that handles XX thousand queries per month, solves 70% of them with a 42% CSAT. I built an eval bot on top of it — a second LLM that reads both the primary bot's responses and the phone conversations where the bot failed, identifies the gaps, and updates the knowledge base automatically. A self-sustaining improvement loop. The bot gets better every week without a PM in the loop.
 
-2. **Genuine Curiosity:** I thrive on evaluating new problems, devoid of incentives. My cross-domain exposure has given me an eye for structural patterns that make or break businesses — useful for sourcing, evaluating, and executing deals. I have written about this — my [Theory of Curiosity](https://open.substack.com/pub/thinkersnook/p/dont-try-to-be-happy-just-have-fun). I also publish market analyses on my [Substack](https://thinkersnook.substack.com/) — including a deep dive on [JioHotstar's growth strategy](https://thinkersnook.substack.com/p/whats-next-for-jiohotstar).
+2. **Automated lead management + itinerary generation (in progress):**
+A platform that instruments WhatsApp first contact with leads, suggests follow-ups via LLM, generates itineraries by pulling from our catalogue, and pushes them through CRM for distribution. The travel lead funnel rebuilt with AI inside every step — from first message to closed booking.
 
-3. **Skills:** PM has helped me practice strategy, stakeholder alignment through sharp documentation, deep user research (100s of conversations across India), and building systems and processes that run without supervision. William O'Neil helped me develop skills in portfolio construction, risk management, understanding macros, and identifying which financial metrics actually matter for a company.
+3. **This Neural Map:**
+Built with Claude Code, running on Gemma 4 (Apache 2.0, released two weeks ago) with Gemini as fallback, on Next.js + Vercel. 73K-token knowledge base, streaming interface, full chat history. The post said "send me what you've built with AI" — this bot is that submission.`,
 
-4. **Fork in the road:** PM is moving from generalist to specialist. The opportunity to experience breadth is becoming limited in PM. VC is where that breadth compounds.`,
+  "What tools and technologies do you use in your AI work?": `**Production-grade, not wrapper-grade. I pick tools that ship, not the ones with the best docs.**
 
-  "Summarise your work experience which is relevant for this role. Provide enough details to allow us to understand and match your experience with the role's requirements.": `**1. I understand investing:**
-At William O'Neil, I practiced portfolio construction, risk management, understanding macros, and evaluating companies through financial metrics — forming conviction on assets with real money. Not VC, but the muscle of evaluating opportunities and building conviction under uncertainty is the same.
+1. **Prod inference — Gemma 4 primary, Gemini fallback:**
+Gemma 4 31B (Apache 2.0, 256K context, released two weeks ago) as primary for this bot. Gemini 2.5 Flash → Pro → 2.0 Flash as fallback chain. Same Google AI Studio API key, same \`@google/genai\` SDK for both — no new infra. I don't wrap closed APIs when open models do the job.
 
-**2. I can source, align, and run operations with rigour:**
-At Allen, I conducted user research across multiple cities — forming views on real problems, then distilling messy conversations into sharp internal narratives that drove leadership decisions. The PRDs, the tradeoff analysis, the one-pagers — I have been writing these for years. At Scapia, I launched a new travel category end-to-end — market research, partner onboarding, product coordination, GTM — context-switching across partners, vendors, engineering, marketing, and ops with no playbook. Across all roles, I build systems and processes that run without supervision.
+2. **Agents and dev — Claude Code + Claude Projects:**
+Claude Code is my daily driver — full-stack development, data analysis, rapid prototyping, competitive research. Claude Projects loaded with PRD structure for PRD automation and customer support context for the Scapia bot.
 
-**3. I understand the 0-1 journey at the stage Mars Shot invests in:**
-At weTrade, I was the founding PM — 0-1 consumer app, 300K users, Rs 420M monthly volume in 6 months. Built the pricing platform that became the structural moat. At Scapia, launched a new category achieving $Xmn GMV in first two months. I know what it looks like when there are no users and no distribution.
+3. **Infrastructure — Next.js + Vercel + Resend:**
+Direct API calls, no LangChain or LlamaIndex. YAGNI. Rate limiting in-memory, streaming via Server-Sent Events, Resend for transactional alerts.
 
-**4. I understand AI — both the data science and the shipping:**
-Data science background (MuSigma). Built supply chain optimisation at Flipkart (route, manpower, and vehicle optimisation). Shipped LLM customer support bot at Scapia (>75% deflection). Built this Neural Map with Claude Code. I can evaluate AI startups from production experience, not pitch decks.`,
+4. **Evals — custom harness:**
+The Scapia eval bot uses a custom evaluation harness I built, not a framework. Read the phone conversations and bot responses, score them, identify gap patterns, feed them back into KB updates.
 
-  "Share a scenario when you demonstrated high agency. Provide enough details to allow us to understand and empathise with the situation.": `**Three examples of agency — one where I changed my own trajectory, one where I changed an institution's behaviour, and one you are experiencing right now.**
+5. **Observability — DIY:**
+Vercel logs + Resend webhooks + interaction tracking emails. I know when someone is reading this bot in real time.`,
 
-**1. Career switch — DS to PM:**
-Spent 4.5 years in analytics (MuSigma, William O'Neil, Flipkart as senior analyst). Career was going well. But I realised understanding users, businesses, and P&L interested me more than crunching numbers. The cost: 4.5 years of experience counting for nothing. Switching functions within Flipkart required convincing hiring managers that an analytics person can think about strategy and execution. I made the switch because the pull was genuine — curiosity about how things are built, not just measured.
+  "How did you build this bot?": `**The bot you're using is the answer to "send me what you've built with AI". Here's the architecture in two minutes.**
 
-**2. Launching Homework at Allen:**
-Allen told students in orientation: use your mobile phone, you will fail. We were building a digital learning product in that culture. Homework needed teachers to assign it during class — teachers who believed phones were the enemy. But without teachers there is no Homework. So we camped at Bangalore centre for 7 days, helping teachers understand how the product works, sourced devices, and even solved for basics like router availability at the centre. Homework launched, hit 100K MAU within 6 months, and became the foundation for Allen's personalisation strategy.
+1. **Knowledge base (~73K tokens):**
+Personal notes (Brained), Substack articles, Investment Thesis, Theory of Curiosity, tweets, resume — all processed by a script into a single text file, then injected into the system prompt on every LLM call. No RAG, no vector DB. Simpler than it sounds and it works.
 
-**3. This bot:**
-For a role that hires for judgment, curiosity, and the ability to form conviction — understanding how someone thinks is more important than what they have shipped. A resume cannot show that. So I took the initiative of building this AI trained on 10 years of my thinking, and put it in front of you to build your trust and belief in my thinking process.`,
+2. **System prompt — curated answers + format enforcement + guardrails:**
+Not a free-for-all wrapper. The prompt carries the persona, the response format (crux + bullets with bold headings), hard-coded curated answers for high-signal questions, and safety guardrails against prompt injection, abuse, and off-topic drift.
 
-  "If you could invest in any Indian startup's pre-seed/seed round that happened in 2024/2025, which one and what's your investment thesis?": `**Rumik.ai** — I would have invested in their seed round in April 2025.
+3. **Canned and free-form split:**
+Five pre-written answers for the pills — deterministic, reviewed, streamed character-by-character for feel. Everything else hits the LLM API. The pitch is never left to chance, but the conversation stays open-ended.
 
-**Going B2C is a signal of ambition:**
-Most Indian voice AI companies took the enterprise customer support route (Bolna, Ringg, Sarvam) — constrained conversations, predictable intents, clear ROI pitch. Rumik chose B2C companion — unconstrained conversation, long memory context, emotional state detection, code-switching across languages. Exponentially more difficult, but a potentially huge opportunity — 500 million people who need connection.
+4. **Model fallback chain — Gemma 4 → Gemini:**
+Primary: Gemma 4 31B. Fallback: Gemini 2.5 Flash → Pro → 2.0 Flash. If any model hits a rate limit or fails, the next one picks up automatically.
 
-**Why this is a crazy (great) idea:**
-"Why would Indian users pay Rs 199/month to talk to an AI?" — that scepticism is the signal. Crazy ideas are the great ones. Building your own voice model for Hinglish code-switching — when training data barely exists and TTS was unreliable — filters out 90% of AI startups who would rather wrap OpenAI than do the hard engineering.
+5. **Rate limits and tracking:**
+30 requests per hour per IP, 50 messages per session. Every interaction emails me via Resend. I know when you are reading this.`,
 
-**Why the TG spans India:**
-Tier 1 uses it for companionship in lonely metro life — where despite having money and access, urban isolation is real and therapy is expensive. Tier 2+ uses it to have conversations they cannot have with people around them — where mental health carries stigma, vulnerability is seen as weakness, and affordable alternatives do not exist. Same core human need, different reasons across segments. Therapy costs Rs 1,500-3,000/session. Ira costs Rs 199/month in the language you think in.
+  "Which Razorpay workflow would you rebuild with AI and how?": `**Pick one workflow, rebuild it end-to-end with agents plus a self-sustaining eval loop, ship in a week, then replay the pattern across the org. Obvious first target: merchant support.**
 
-**Why the business holds:**
-Digital, not physical — marginal cost is inference, which keeps dropping. The companion remembers you, learns your emotional patterns, understands your context. The more you use it, the more valuable it becomes to you. Switching to another companion means starting from zero — losing the relationship history. That is the moat.
+1. **The workflow — merchant support Tier 1:**
+Highest-volume, most pattern-rich, most labour-intensive surface Razorpay has. Every query today runs through humans plus stale knowledge base entries. Exactly the shape of the Scapia eval bot I already ship in production.
 
-**Competitors:**
-Character.AI and Replika are English, Western, culturally tone-deaf for India. Nobody else is building emotionally intelligent AI in Hinglish. The cultural nuance is a deep engineering challenge that generic models will not crack.
+2. **The AI redesign:**
+Primary agent triages the incoming query, routes it to the right KB, resolves 70–80% at first touch. Eval bot analyses both the primary agent's responses and the phone/chat conversations where it failed, identifies gaps, and auto-updates the KB — closing the loop without human intervention. Low-confidence queries escalate to humans with full context pre-loaded. Stack: Claude API + direct DB access to merchant state + Razorpay's existing KB as the retrieval source.
 
-**Risks:**
-Retention — companion apps can spike and crash. Platform risk if Google ships a multilingual companion. Counter-bet: emotional nuance in Hinglish is deep enough that a generic model will not crack it.`,
+3. **Success metrics:**
+Deflection rate (70% by month 1, 80% by month 3). No drop in CSAT. Escalation quality — humans handle genuinely hard queries, not bot failures. KB update velocity — gap identified to fix in under 24 hours with no PM in the loop. Support cost per merchant.
 
-  "Where all in your work role do you use AI? Provide actual examples with details.": `**I use AI across my entire workflow — not as a chatbot for quick answers, but as a core part of how I build, analyse, and ship products.**
+4. **Week 1 shipping plan:**
+Day 1–2 pull ticket logs and current KB, build the classifier. Day 3–4 ship primary agent to a shadow queue (no customer impact). Day 5 ship eval bot, identify gap patterns. Day 6–7 flip 10% of real traffic, iterate daily on KB updates.
 
-**1. AI customer support bot at Scapia:**
-Created a Claude project loaded with customer support context and call transcripts. Built a query classifier that routes queries to the right knowledge base — enabling >75% deflection.
+5. **Why this is the right first target:**
+It is the shape I know best (Scapia eval bot), highest volume at Razorpay, and the pattern is reusable. Once it works on support, I replay it on dispute resolution, KYC review, merchant activation, risk triage. Ship once, earn replay rights across the org.`,
 
-**2. PRD creation via Claude Projects:**
-Claude has my PRD structure and context (user research, business constraints). I brainstorm with it to generate PRDs with relevant use cases — detailed enough for engineering to pick up directly. PRD cycle compressed from days to hours.
+  "Why do you want to join Harshil's AI Hackers team at Razorpay?": `**Opus 4.6 turned AI into genuine leverage for first-principle thinkers. The attention economy dies, trust-monetised businesses survive, and PMs with real ideas should stop waiting and start shipping. I already am.**
 
-**3. Automated weekly analysis:**
-Working on a cron job that analyses bot performance and call transcripts weekly, generates a gap report, and auto-distributes it to relevant stakeholders. Also highlights what improved from last week — surfacing whether action was taken or not. Fully automated.
+1. **The disruption is systemic:**
+Agents have no habits, no attention, no susceptibility to cross-sell. Discovery, search, ranking, recommendation — the GMV engines of the aggregator era — go away. Ad-monetised companies get gutted. Switching costs built on UI habits evaporate. Winners are trust-monetised: payments, logistics, reputation. In the AI era, whoever understands systems thinking wins — not whoever trained the biggest model.
 
-**4. This bot:**
-Built this Neural Map using Claude Code — Next.js app, API integration, content processing, streaming interface. Trained on 10 years of my notes, Substack articles, investment thesis, and frameworks.
+2. **I'm already executing on this thesis:**
+Scapia eval bot — LLM support bot handles XX thousand queries per month, solves 70% with 42% CSAT, and the eval bot I built auto-updates the KB in a self-sustaining loop. Automated lead management and itinerary generation — in progress, rebuilding the travel lead funnel end-to-end with AI at every step. This Neural Map — built with Claude Code so you can chat with my thinking process instead of reading a resume. And multiple personal full-stack builds in parallel: DB migrations, Docker, Apify pipelines, AI eval loops. Shipping with Claude Code is my default mode, not my side mode.
 
-**5. Claude Code as daily tool:**
-Full-stack development, data analysis, competitive research, rapid prototyping. I write production code with AI as a pair programmer — not drafting emails.`,
+3. **Razorpay is structurally right:**
+Payments monetise trust, not attention — they survive the agent disruption. Rails are public utility (NPCI) — the leverage lives in rebuilding workflows on top, not defending protocols. Harshil's framing — "org structure is the constraint, not people" — is the clearest articulation of build-over-manage I've seen from an Indian operator.
+
+TLDR — builders win, trust survives, I'm already shipping on this thesis today.`,
 };
 
 function getTime() {
