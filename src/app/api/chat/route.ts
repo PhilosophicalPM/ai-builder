@@ -221,7 +221,7 @@ export async function POST(req: NextRequest) {
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
     async start(controller) {
-      const models = ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.0-flash"];
+      const models = ["gemma-4-31b-it", "gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.0-flash"];
       let succeeded = false;
 
       for (const model of models) {
