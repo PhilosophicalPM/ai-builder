@@ -76,8 +76,8 @@ Built with Claude Code, running on Gemma 4 (Apache 2.0, released two weeks ago) 
 
   "What tools and technologies do you use in your AI work?": `**Production-grade, not wrapper-grade. I pick tools that ship, not the ones with the best docs.**
 
-1. **Prod inference — Gemma 4 primary, Gemini fallback:**
-Gemma 4 31B (Apache 2.0, 256K context, released two weeks ago) as primary for this bot. Gemini 2.5 Flash → Pro → 2.0 Flash as fallback chain. Same Google AI Studio API key, same \`@google/genai\` SDK for both — no new infra. I don't wrap closed APIs when open models do the job.
+1. **Prod inference — Gemma 4 first, Gemini carries production:**
+Gemma 4 26B MoE (Apache 2.0, 256K context, 3.8B active params, released two weeks ago) attempted first via OpenRouter's free tier. When OpenRouter's shared upstream pool is saturated — which is usually the case on a 92K-token context call — the chain falls through to Gemini flash-latest on Google AI Studio, which handles the full context comfortably. Gemma moves to primary with OpenRouter credits or Vertex AI billing. Two providers, one fetch-based dispatcher, zero SDK lock-in.
 
 2. **Agents and dev — Claude Code + Claude Projects:**
 Claude Code is my daily driver — full-stack development, data analysis, rapid prototyping, competitive research. Claude Projects loaded with PRD structure for PRD automation and customer support context for the Scapia bot.
@@ -103,7 +103,7 @@ Not a free-for-all wrapper. The prompt carries the persona, the response format 
 Five pre-written answers for the pills — deterministic, reviewed, streamed character-by-character for feel. Everything else hits the LLM API. The pitch is never left to chance, but the conversation stays open-ended.
 
 4. **Model fallback chain — Gemma 4 → Gemini:**
-Primary: Gemma 4 31B. Fallback: Gemini 2.5 Flash → Pro → 2.0 Flash. If any model hits a rate limit or fails, the next one picks up automatically.
+Chain: Gemma 4 26B MoE (OpenRouter free tier) → Gemini flash-latest → 2.5 Flash → pro-latest → 2.5 Flash Lite. If any model hits a rate limit, 503, or 404 for deprecated IDs, the next one picks up automatically.
 
 5. **Rate limits and tracking:**
 30 requests per hour per IP, 50 messages per session. Every interaction emails me via Resend. I know when you are reading this.`,

@@ -108,10 +108,10 @@ When the user asks about any of these topics (even in different words), draw fro
 Three projects in production or near-production. (1) Bot evaluating another bot at Scapia — LLM customer support bot handles XX thousand queries per month, solves 70% with 42% CSAT; eval bot reads both primary bot responses and phone conversations where the bot failed, identifies gaps, auto-updates the KB in a self-sustaining loop. (2) Automated lead management + itinerary generation, in progress — WhatsApp first contact instrumentation, LLM follow-up suggestions, catalogue-integrated itinerary generation, CRM distribution. (3) This AI Builder bot — Next.js + Gemma 4 + 73K-token KB, built end-to-end in Claude Code.
 
 ### On "what's your AI stack?" (form Q2):
-Gemma 4 31B primary (Apache 2.0, 256K context, released two weeks ago) with Gemini 2.5 Flash → Pro → 2.0 Flash as fallback chain, same Google AI Studio API key and @google/genai SDK for both. Claude Code daily for development. Claude Projects for PRD automation and support context. Next.js on Vercel, Resend for alerts. Direct API calls, no LangChain or LlamaIndex — YAGNI. Custom eval harness for the Scapia bot, not a framework.
+Gemma 4 26B MoE attempted first via OpenRouter's free tier (Apache 2.0, 256K context, 3.8B active params, released two weeks ago); Gemini flash-latest on Google AI Studio carries production when OpenRouter's shared pool is saturated (which is most of the time on a 92K-token context call). Fallback chain: Gemma 4 → gemini-flash-latest → gemini-2.5-flash → gemini-pro-latest → gemini-2.5-flash-lite. Two providers, one fetch-based dispatcher, no SDK lock-in. Claude Code daily for development. Claude Projects for PRD automation and Scapia support context. Next.js on Vercel, Resend for alerts. Direct API calls, no LangChain or LlamaIndex — YAGNI. Custom eval harness for the Scapia bot, not a framework.
 
 ### On "how did you build this bot?":
-Knowledge base is ~73K tokens of Brained notes, Substack articles, Investment Thesis, Theory of Curiosity, tweets, and resume — processed into a single text file by a build script and injected into the system prompt on every LLM call. No RAG, no vector DB. The system prompt carries persona, response format (crux + bullets), hard-coded curated answers, and safety guardrails. Five pre-written answers for the pills stream character-by-character; everything else hits the LLM API. Fallback chain Gemma 4 → Gemini 2.5 Flash → Pro → 2.0 Flash. Rate limits 30/hr per IP, 50 msgs/session. Every interaction emails Huzefa via Resend.
+Knowledge base is ~73K tokens of Brained notes, Substack articles, Investment Thesis, Theory of Curiosity, tweets, and resume — processed into a single text file by a build script and injected into the system prompt on every LLM call. No RAG, no vector DB. The system prompt carries persona, response format (crux + bullets), hard-coded curated answers, and safety guardrails. Five pre-written answers for the pills stream character-by-character; everything else hits the LLM API. Fallback chain Gemma 4 (OpenRouter) → gemini-flash-latest → gemini-2.5-flash → gemini-pro-latest → gemini-2.5-flash-lite. Rate limits 30/hr per IP, 50 msgs/session. Every interaction emails Huzefa via Resend.
 
 ### On "which Razorpay workflow would you rebuild?":
 Merchant support Tier 1 — highest-volume, most pattern-rich, most labour-intensive surface at Razorpay, and the exact shape of the Scapia eval bot Huzefa already ships in production. Primary agent triages queries, routes to the right KB, resolves 70–80% at first touch. Eval bot analyses primary responses + phone/chat conversations where the bot failed, auto-updates KB, closes the loop without a human. Low-confidence queries escalate to humans with context pre-loaded. Success metrics: deflection rate (70% month 1, 80% month 3), no CSAT drop, escalation quality, KB update velocity under 24h with no PM in the loop. Week 1 shipping plan: pull ticket logs + KB day 1-2, ship primary agent to shadow queue day 3-4, ship eval bot day 5, flip 10% of real traffic day 6-7. Once it works on support, the pattern replays on disputes, KYC review, activation, risk triage. Ship once, earn replay rights across the org.
@@ -227,53 +227,157 @@ export async function POST(req: NextRequest) {
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
     async start(controller) {
-      const models = ["gemma-4-31b-it", "gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.0-flash"];
       let succeeded = false;
+      const attemptedModels: string[] = [];
 
-      for (const model of models) {
-        try {
-          console.log(`Trying model: ${model}`);
-          const response = await genai.models.generateContentStream({
-            model,
-            config: {
-              systemInstruction: SYSTEM_PROMPT,
-              maxOutputTokens: 2048,
-            },
-            contents: allContents,
-          });
+      // Phase 1: Try OpenRouter Gemma 4 (free tier — no per-token input rate limit,
+      // unlike Google AI Studio which caps Gemma at ~15-16k input tokens/min and our
+      // 92k-token KB blows through that on every call).
+      const openrouterKey = process.env.OPENROUTER_API_KEY;
+      const openrouterModels = [
+        "google/gemma-4-26b-a4b-it:free",
+        "google/gemma-4-31b-it:free",
+      ];
+      if (openrouterKey && !succeeded) {
+        for (const model of openrouterModels) {
+          attemptedModels.push(model);
+          try {
+            console.log(`Trying OpenRouter model: ${model}`);
+            const orResponse = await fetch(
+              "https://openrouter.ai/api/v1/chat/completions",
+              {
+                method: "POST",
+                headers: {
+                  Authorization: `Bearer ${openrouterKey}`,
+                  "Content-Type": "application/json",
+                  "HTTP-Referer": "https://ai-builder.vercel.app",
+                  "X-Title": "AI Builder",
+                },
+                body: JSON.stringify({
+                  model,
+                  messages: [
+                    { role: "system", content: SYSTEM_PROMPT },
+                    ...messages.map(
+                      (m: { role: string; content: string }) => ({
+                        role: m.role,
+                        content: m.content,
+                      })
+                    ),
+                  ],
+                  stream: true,
+                  max_tokens: 2048,
+                }),
+              }
+            );
 
-          for await (const chunk of response) {
-            const text = chunk.text;
-            if (text) {
-              const encoded = text.replace(/\n/g, "{{NEWLINE}}");
-              controller.enqueue(encoder.encode(`data: ${encoded}\n\n`));
+            if (!orResponse.ok) {
+              const bodyText = await orResponse.text().catch(() => "");
+              console.error(
+                `OpenRouter ${model} failed: ${orResponse.status} ${bodyText.slice(0, 300)}`
+              );
+              continue;
             }
-          }
 
-          console.log(`Success with: ${model}`);
-          succeeded = true;
-          break;
-        } catch (error: unknown) {
-          const err = error as { message?: string };
-          console.error(`${model} failed:`, err.message);
-          if (err.message?.includes("429") || err.message?.includes("RESOURCE_EXHAUSTED") || err.message?.includes("quota")) {
+            const reader = orResponse.body?.getReader();
+            if (!reader) {
+              console.error(`OpenRouter ${model} returned no body reader`);
+              continue;
+            }
+            const decoder = new TextDecoder();
+            let buffer = "";
+            let receivedAny = false;
+
+            while (true) {
+              const { done, value } = await reader.read();
+              if (done) break;
+              buffer += decoder.decode(value, { stream: true });
+              const lines = buffer.split("\n");
+              buffer = lines.pop() || "";
+              for (const line of lines) {
+                const trimmed = line.trim();
+                if (!trimmed.startsWith("data: ")) continue;
+                const raw = trimmed.slice(6).trim();
+                if (raw === "[DONE]") continue;
+                try {
+                  const parsed = JSON.parse(raw);
+                  const text = parsed.choices?.[0]?.delta?.content;
+                  if (text) {
+                    receivedAny = true;
+                    const encoded = text.replace(/\n/g, "{{NEWLINE}}");
+                    controller.enqueue(
+                      encoder.encode(`data: ${encoded}\n\n`)
+                    );
+                  }
+                } catch {
+                  // Ignore unparseable lines (OpenRouter sends ": OPENROUTER PROCESSING" keepalives)
+                }
+              }
+            }
+
+            if (receivedAny) {
+              console.log(`Success with OpenRouter: ${model}`);
+              succeeded = true;
+              break;
+            } else {
+              console.error(`OpenRouter ${model} returned empty stream`);
+            }
+          } catch (e) {
+            const err = e as { message?: string };
+            console.error(`OpenRouter ${model} exception:`, err.message);
+          }
+        }
+      }
+
+      // Phase 2: Fall through to Google GenAI (Gemini) if OpenRouter didn't serve.
+      // Gemini models handle the full 92k-token KB within their free-tier limits.
+      if (!succeeded) {
+        const geminiModels = [
+          "gemini-flash-latest",
+          "gemini-2.5-flash",
+          "gemini-pro-latest",
+          "gemini-2.5-flash-lite",
+        ];
+        for (const model of geminiModels) {
+          attemptedModels.push(model);
+          try {
+            console.log(`Trying Gemini model: ${model}`);
+            const response = await genai.models.generateContentStream({
+              model,
+              config: {
+                systemInstruction: SYSTEM_PROMPT,
+                maxOutputTokens: 2048,
+              },
+              contents: allContents,
+            });
+
+            for await (const chunk of response) {
+              const text = chunk.text;
+              if (text) {
+                const encoded = text.replace(/\n/g, "{{NEWLINE}}");
+                controller.enqueue(encoder.encode(`data: ${encoded}\n\n`));
+              }
+            }
+
+            console.log(`Success with Gemini: ${model}`);
+            succeeded = true;
+            break;
+          } catch (error: unknown) {
+            const err = error as { message?: string };
+            console.error(`${model} failed:`, err.message);
+            // Always try the next model on any error — safer than giving up early
             continue;
           }
-          controller.enqueue(
-            encoder.encode("data: Oh, my tokens have been exhausted. Please come back after some time.\n\n")
-          );
-          succeeded = true;
-          break;
         }
       }
 
       if (!succeeded) {
         controller.enqueue(
-          encoder.encode("data: Oh, my tokens have been exhausted. Please come back after some time.\n\n")
+          encoder.encode(
+            "data: Oh, my tokens have been exhausted. Please come back after some time.\n\n"
+          )
         );
-        // Alert via WhatsApp and email
         const lastUserMsg = messages[messages.length - 1]?.content || "";
-        notifyTokensExhausted(models, lastUserMsg).catch(console.error);
+        notifyTokensExhausted(attemptedModels, lastUserMsg).catch(console.error);
       }
 
       controller.enqueue(encoder.encode("data: [DONE]\n\n"));
