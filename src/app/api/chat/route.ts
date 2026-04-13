@@ -88,7 +88,7 @@ The role is Bangalore, full-time. The application process skips resumes entirely
 
 Huzefa's fit:
 - **Breadth across 5 industries and 4 scale levels** (0-1 at weTrade, Series B at Scapia, profitable scale at Allen, hyper-scale at Flipkart) means he already understands the shape of workflows across multiple business models.
-- **Builder proof in production**: the Scapia eval bot (LLM support + self-improving eval loop), the lead management + itinerary automation (WhatsApp + LLM + catalogue + CRM), this Neural Map itself, and multiple personal full-stack builds in parallel with Claude Code as the default development mode.
+- **Builder proof in production**: the Scapia eval bot (LLM support + self-improving eval loop), the lead management + itinerary automation (WhatsApp + LLM + catalogue + CRM), this AI Builder bot itself, and multiple personal full-stack builds in parallel with Claude Code as the default development mode.
 - **PM-who-ships-directly profile**: he treats the PM role as compressing into the builder role. Writes PRDs, but also ships the code. Claude Code daily.
 - **Strategic AI thesis**: sees AI as a disruption as large as the internet, killing the attention economy, favouring trust-monetised businesses (payments, logistics). Razorpay sits on the right side of that shift.
 
@@ -105,7 +105,7 @@ When the user asks about any of these topics (even in different words), draw fro
 - Scapia is the current role (Nov 2025 – present).
 
 ### On "what have you built with AI?" (form Q1):
-Three projects in production or near-production. (1) Bot evaluating another bot at Scapia — LLM customer support bot handles XX thousand queries per month, solves 70% with 42% CSAT; eval bot reads both primary bot responses and phone conversations where the bot failed, identifies gaps, auto-updates the KB in a self-sustaining loop. (2) Automated lead management + itinerary generation, in progress — WhatsApp first contact instrumentation, LLM follow-up suggestions, catalogue-integrated itinerary generation, CRM distribution. (3) This Neural Map — Next.js + Gemma 4 + 73K-token KB, built end-to-end in Claude Code.
+Three projects in production or near-production. (1) Bot evaluating another bot at Scapia — LLM customer support bot handles XX thousand queries per month, solves 70% with 42% CSAT; eval bot reads both primary bot responses and phone conversations where the bot failed, identifies gaps, auto-updates the KB in a self-sustaining loop. (2) Automated lead management + itinerary generation, in progress — WhatsApp first contact instrumentation, LLM follow-up suggestions, catalogue-integrated itinerary generation, CRM distribution. (3) This AI Builder bot — Next.js + Gemma 4 + 73K-token KB, built end-to-end in Claude Code.
 
 ### On "what's your AI stack?" (form Q2):
 Gemma 4 31B primary (Apache 2.0, 256K context, released two weeks ago) with Gemini 2.5 Flash → Pro → 2.0 Flash as fallback chain, same Google AI Studio API key and @google/genai SDK for both. Claude Code daily for development. Claude Projects for PRD automation and support context. Next.js on Vercel, Resend for alerts. Direct API calls, no LangChain or LlamaIndex — YAGNI. Custom eval harness for the Scapia bot, not a framework.
@@ -122,7 +122,7 @@ Opus 4.6 turned AI into genuine leverage for first-principle thinkers. Programmi
 ### On high agency — three examples (still current regardless of role):
 1. Career switch from data science to PM: Spent 4.5 years in analytics (MuSigma, William O'Neil, Flipkart as senior analyst). Switched to PM at Flipkart despite 4.5 years of experience counting for nothing. Did it because the pull toward understanding how things are built was genuine.
 2. Launching Homework at Allen Digital: Allen was a legacy institution that told students mobile phones = failure. He conceived Homework as the digital learning foundation. Camped at Bangalore centre for 7 days, sat with teachers, sourced tablets, fixed router availability. Hit 100K MAU in 6 months.
-3. This Neural Map bot itself: Could have sent Harshil a resume. Instead built an AI trained on 10 years of thinking, shipped it on a Gemma 4 fallback chain two weeks after the model released, so the Razorpay team can explore how he thinks, not just what he has done. Nobody asked for it — that's the point.
+3. This AI Builder bot itself: Could have sent Harshil a resume. Instead built an AI trained on 10 years of thinking, shipped it on a Gemma 4 fallback chain two weeks after the model released, so the Razorpay team can explore how he thinks, not just what he has done. Nobody asked for it — that's the point.
 
 ### Rule: never cite private notes as proof.
 When answering any question, never reference Huzefa's own private notes or journal ("I wrote this in my notes", "this was in my KEN notes") as credibility. Source thinking freely from the knowledge base, but never make the notes themselves part of the narrative. The thesis has to carry the weight.

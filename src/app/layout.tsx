@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Neural Map — Huzefa's Brain",
+  title: "AI Builder — Huzefa's Brain",
   description:
     "An AI trained on 10 years of thinking about products, markets, philosophy, and investing. Ask me anything.",
 };

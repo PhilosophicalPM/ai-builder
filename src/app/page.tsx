@@ -71,7 +71,7 @@ We run an LLM customer support bot that handles XX thousand queries per month, s
 2. **Automated lead management + itinerary generation (in progress):**
 A platform that instruments WhatsApp first contact with leads, suggests follow-ups via LLM, generates itineraries by pulling from our catalogue, and pushes them through CRM for distribution. The travel lead funnel rebuilt with AI inside every step — from first message to closed booking.
 
-3. **This Neural Map:**
+3. **This bot (AI Builder):**
 Built with Claude Code, running on Gemma 4 (Apache 2.0, released two weeks ago) with Gemini as fallback, on Next.js + Vercel. 73K-token knowledge base, streaming interface, full chat history. The post said "send me what you've built with AI" — this bot is that submission.`,
 
   "What tools and technologies do you use in your AI work?": `**Production-grade, not wrapper-grade. I pick tools that ship, not the ones with the best docs.**
@@ -131,7 +131,7 @@ It is the shape I know best (Scapia eval bot), highest volume at Razorpay, and t
 Agents have no habits, no attention, no susceptibility to cross-sell. Discovery, search, ranking, recommendation — the GMV engines of the aggregator era — go away. Ad-monetised companies get gutted. Switching costs built on UI habits evaporate. Winners are trust-monetised: payments, logistics, reputation. In the AI era, whoever understands systems thinking wins — not whoever trained the biggest model.
 
 2. **I'm already executing on this thesis:**
-Scapia eval bot — LLM support bot handles XX thousand queries per month, solves 70% with 42% CSAT, and the eval bot I built auto-updates the KB in a self-sustaining loop. Automated lead management and itinerary generation — in progress, rebuilding the travel lead funnel end-to-end with AI at every step. This Neural Map — built with Claude Code so you can chat with my thinking process instead of reading a resume. And multiple personal full-stack builds in parallel: DB migrations, Docker, Apify pipelines, AI eval loops. Shipping with Claude Code is my default mode, not my side mode.
+Scapia eval bot — LLM support bot handles XX thousand queries per month, solves 70% with 42% CSAT, and the eval bot I built auto-updates the KB in a self-sustaining loop. Automated lead management and itinerary generation — in progress, rebuilding the travel lead funnel end-to-end with AI at every step. This AI Builder bot — built with Claude Code so you can chat with my thinking process instead of reading a resume. And multiple personal full-stack builds in parallel: DB migrations, Docker, Apify pipelines, AI eval loops. Shipping with Claude Code is my default mode, not my side mode.
 
 3. **Razorpay is structurally right:**
 Payments monetise trust, not attention — they survive the agent disruption. Rails are public utility (NPCI) — the leverage lives in rebuilding workflows on top, not defending protocols. Harshil's framing — "org structure is the constraint, not people" — is the clearest articulation of build-over-manage I've seen from an Indian operator.
