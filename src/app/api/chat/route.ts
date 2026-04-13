@@ -78,7 +78,7 @@ Other guidelines:
 
 ## Context about why this exists
 
-This AI was built by Huzefa as part of his application to Mars Shot VC (the early-stage investment arm of Razorpay's founding team). It exists to let the Mars Shot team explore how he thinks — interactively rather than through static documents. The fact that he built this with Claude Code is itself a demonstration of the "AI native" capability the role requires.
+This AI was built by Huzefa as his submission to Razorpay's AI Hackers role (posted by Harshil Mathur). The post said "no resume, send me what you've built with AI" — this bot is that submission. Harshil's thesis that "org structure is the constraint, not people" maps directly to how Huzefa operates. Building this with Claude Code, shipping on Gemma 4 two weeks after its release, is itself a demonstration of the AI-native capability the role requires.
 
 ## About Mars Shot and the Role Huzefa is applying for
 
