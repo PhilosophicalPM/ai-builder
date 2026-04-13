@@ -8,7 +8,7 @@ This is the complete knowledge base of Huzefa H — his thinking, frameworks, pu
 
 Domain
 
-1. Consumer Internet B2C
+1. Consumer Internet B2C is the domain I would want to invest because internet brings efficiency (cost does not increase with revenue) and building for B2C customer gives the company unmatched scale 
 
 Good idea 
 
@@ -39,6 +39,7 @@ Good TG
    5. They are time rich cash poor   
    6. Emphasis on community   
    7. [https://thinkersnook.substack.com/p/creator-economy-in-india-part-1](https://thinkersnook.substack.com/p/creator-economy-in-india-part-1) 
+   So if the idea straddles both the India its scale and probability to succeed increases by a huge margin becasue Tier 2 and beyond customer can give scale while tier 1 customers help with proitability 
 
    
 
@@ -55,24 +56,23 @@ Good founder
    2. Perseverance and stubbornness is what elevates the game 
 
 Good business 
-
-1.   
+  
 2. Its a pull based business   
 3.  Generally, a 10x product requires an exponential jump in a new tech like the internet, Google Maps, or right now LLMs.This business solves a problem which users are also not aware that they wanted to be solved, but generally results in a market leader with a very high premium on monetization  
 4. I would prefer digital business over physical one because unit economics are generally brutal if you are just digitising physical workflow  
    1. Uber & Flipkart vs Spotify/Instagram/Youtube  
-5. The business needs to have an inherent mode. Generally, it is ideal that Value derived by the users from the product increases with the usage of the product.  
+5. The business needs to have an inherent moat. Generally, it is ideal that Value derived by the users from the product increases with the usage of the product.  
    1. Network effect.  
    2. Personalization.
 
 PMF 
 
-1. Generally, visible decrease in decreasing CAC and week 4 retention depends on the product. For example, a travel product will have a longer return period.  
+1. Generally, visible decrease in decreasing CAC and week 4 retention 
 2. User feedback can also be a very good criteria to understand it, to support tickets and app store/play store reviews. Sometimes, feedback from users agreeing with the product can help us decide where to pivot.
 
 Competitors are not important if your wedge is well defined and business model work
 
-1. For example, when Minshu entered the market, Flipkart and Amazon already existed, but they understood that Tier 2 and beyond users want things cheap and do not care about the speed. Out of the three levers, which were speed, selection, and cost, they sacrificed speed.  
+1. For example, when Meesho entered the market, Flipkart and Amazon already existed, but they understood that Tier 2 and beyond users want things cheap and do not care about the speed. Out of the three levers, which were speed, selection, and cost, they sacrificed speed.  
 2. But they identified that if they do not ask the seller for commission, the cost would be lower. They can make money through logistics and advertising, so the business model will also work. More sellers will mean more users, which means more sellers, and hence the feedback loop will also work.
 
 What has AI changed 
@@ -80,8 +80,9 @@ What has AI changed
 1. Everybody can build, hence the distribution will matter a lot.  
 2. The whole advice of doing things to scale is not required because you can spin up multiple AI agents and check all your hypotheses. This also throws A/B experiment out of the window because the cost of building a thing is less.  
 3. AI has also introduced a lot of scope in workflow automation, where basically an agent can handle automating things, especially considering the huge size of India's MSME target base.  
-4. I genuinely believe that technology can help humans evolve themselves and help them achieve their aspiration. The current use of technology for engagement farming is because it is easier to optimize for the baser instinct of humans, but there is a non-preachy way which can actually help you move.
 
+
+I genuinely believe that technology can help humans evolve themselves and help them achieve their aspiration. The current use of technology for engagement farming is because it is easier to optimize for the baser instinct of humans, but tech can help people realise their aspirations while buiilding a sustainable business at the same time (may not be the biggest in terms of scale)
 
 
 ---
@@ -717,6 +718,1263 @@ Write maps , Duolingo , LinkedIn and theory of curiosity , Netflix new feature
 - [[Learn]]
 - [[AI _tools]]
 - [[alternatebrain]]
+
+---
+
+### Entertainment/Business tv series.md
+# Business tv series
+
+House of lies 
+Startup 
+Bad banks
+The office 
+Billions
+Succession 
+Halt and catch fire
+Mad men 
+Corporate
+We work
+
+---
+
+### Entertainment/English Movies.md
+# English Movies
+
+Gone girl
+There will be blood
+Reservoir dogs
+Good fellows
+Irish man
+Gone girl
+Guardians of galaxy 2
+Lord of war
+Black mass
+Spiderman no way home
+Dr stange multiverse of madness
+Joker
+The rise of Ottoman Empire
+Green book 
+Tetris
+F1
+
+---
+
+### Entertainment/English TV series.md
+# English TV series
+
+Altered carbon 
+Watchmen 
+Wire
+Peaky Blinder
+Ozark
+Biggie doc
+Westworld 
+Billions
+Mr robot
+Balck mirror
+Sopranos
+Witcher
+Stranger things
+Vikings 
+Saddam wala
+Black sails 
+Legion 
+Better call saul
+Six feet under
+Succession 
+Blackwater 
+Rome
+Crown
+Dark
+Madmen 
+Macmahon 
+Boys
+Bear
+Ted lasso 
+Band of brothers
+
+---
+
+### Entertainment/Hindi Movies.md
+# Hindi Movies
+
+Badla
+Pari
+3 stories
+Sanju
+Mulk
+Gulabo sitabo
+A death in the goonj
+Court
+Jersey
+Ankhon dekhi
+Oye Lucky Lucky oye
+Lsd
+Shor in the city 
+
+
+Udaan  
+Machis
+
+Raghu Romeo
+Aankhen 
+Raakh 
+Qissa 
+15 park avenue
+Miss lovely
+
+---
+
+### Entertainment/Hindi TV series.md
+# Hindi TV series
+
+Trial by fire 
+Aspirants
+Humorously yours
+Kaal koot
+Indrani Mukherjee story 
+Breathe 
+JL50
+
+---
+
+### Entertainment/Movies to watch.md
+# Movies to watch
+
+Madgaon express
+Maidaan 
+Crew
+Chamkila
+Fighter
+
+---
+
+### Food/Breakfast.md
+# Breakfast
+
+1. Sabudana ki khichdi
+2. Khammam
+3. Egg roll 
+4. Maggi
+5. Pasta
+6. Ragi pancake
+7. Oatmeal
+8. Chila 
+9. Chawala na bhajiya
+10. Aloo parantha
+11. Namkeen oats
+12. Malai bread butter
+13. Upma
+14. Black chana
+15. Poha
+
+---
+
+### Food/Dinner wekday.md
+# Dinner wekday
+
+1.Masoor pulav kadi
+2. Moong pulav kadi 
+3. Salna 
+4. Sarka 
+5. Baisan
+6.  Vagari khichdi 
+7. Loki 
+8. Phulwas
+9. Dal khichdi 
+10. Aloo gravy 
+11. Palak ki bhaji
+12. Aal chane ki daal
+13. Moong bhajiye 
+14. Sandwich 
+15. Shwarma
+16. Pav bhaji
+17. Karke / 
+18. Sev tamatar
+19. Chikoliya
+
+---
+
+### Food/Lunch - weekday.md
+# Lunch - weekday
+
+1. Kadi bhajiya 
+2. Khandwi 
+3. Arwi 
+4. Khaskhas
+5. Rajma
+6. Paneer custom 
+7. Loki
+8. Aloo matar
+9. Baigan 
+10. Bhindi 
+11. Beans 
+12. Gobi 
+13. Karela
+14. Mix veg
+15.  Methi 
+16. Cheala bhaji 
+17. Patta gobhi 
+18. Baby potato
+
+---
+
+### Food/Non veg items.md
+# Non veg items
+
+Shakshuka
+Pulav
+Sandwich 
+Soup 
+Nawabi 
+Bhurji
+
+---
+
+### Food/Special.md
+# Special
+
+Non Veg:
+1. Khurdi 
+2. Khichda
+3. Keema pav
+4. Chicken burger
+5. Paya
+6. Biryani 
+7. Akhni pulav
+8. Fish etc
+9. Lagan ki seekh 
+10. Mutton bajre ki roti / tandoori roti
+11. Kabab ni tarkari 
+12. Keeme ke patis
+13. Keema ni tikiya
+14. Rohan josh 
+
+Veg
+1. Pani Puri /chole tikiya
+2. Pizza
+3. Vada pav
+4. Veg burger
+5. Chole bhature
+6. Idli 
+7. Dosa
+8. Dal bati
+9. Anda Kari 
+10. Pav bhaji 
+11. Veg fried rice
+12. Manchurian
+13. Dal gakhar
+
+---
+
+### Input/Books/Booklist/Books.md
+# Books
+
+The gualg archipelago
+The Billionaire's Apprentice: 
+Mind Without FearMind Without Fear
+Half - Lion: How P.V Narasimha Rao Transformed India
+
+Who Killed Shastri?: The Tashkent Files
+This Divided Island: Stories from the Sri Lankan 
+The Unfair Advantage:
+Gone with the Wind
+Gone Girl
+The Whisper Man: The chilling must-read 
+Black Flags: The Rise of ISIS
+The Longest Day: The Illustrated Edition
+The Looming Tower: Al-Qaeda and the Road to 9/11
+Man's Search For Meaning: The classic tribute to hope from the Holocaust 
+Stalingrad
+The Accidental Billionaires
+The girl with the dragon tattoo
+A promised land 
+Psychology of money 
+The bed of Procrustes
+In Cold Blood (Modern Library 100 Best Nonfiction Books)
+Black swan
+Antifragile 
+Fooled by randomness
+Skin in the game 
+The choice : A true story of hope 
+The alchemist 
+The archer 
+Original Gangstas: The Untold Story of Dr. Dre, Eazy-E, Ice Cube,
+The Splendid and the Vile: A Saga of Churchill, Family and Defiance During the Blitz
+The spy and the taitor
+Power of habit
+Crime and punishment
+The courage to be disliked
+In praise of the shadows
+The Lazarus heist
+Existential Physics: A Scientist's Guide to Life's Biggest Questions
+Creativity 
+Actionable gamification 
+A little life
+Build tony fadell
+Ghost in the wires 
+The art of doing science and engineering 
+Civilised to  death
+midnighti n chernobyl
+The lost signal 
+The shattered lands 
+The anarchy William darymple
+A general theory of love 
+Zen and the art of motorcycle maintenance
+Secret notes from Iran 
+Psycho cyber netics
+Homer the Iliad and the odyssey 
+
+---
+## Related
+- [[PM Books]]
+- [[NY Times top 100]]
+- [[Philosophical books]]
+
+---
+
+### Input/Books/Booklist/Categories of books.md
+# Categories of books
+
+Fiction 
+Non fiction 
+Psychology 
+Economics
+Behavioural theory 
+Philosophy 
+Game theory 
+Design 
+Product 
+Autobiography 
+
+To calculate student proficiency based on performance across questions of varying difficulty, a model can be developed using a weighted scoring system. This involves assigning weights to questions based on their difficulty levels. 
+
+For example, if a student answers questions correctly, the score can be calculated as:
+
+$$
+\text{Proficiency Score} = \sum \left( \text{Weight}_{i} \times \text{Correct}_{i} \right) / \sum \text{Weight}_{i}
+$$
+
+where $$ \text{Weight}_{i} $$ is the difficulty weight of question $$ i $$ and $$ \text{Correct}_{i} $$ is 1 if answered correctly, otherwise 0. This approach allows for a nuanced understanding of student performance across different difficulty levels[3].
+
+---
+
+### Input/Books/Booklist/NY Times top 100.md
+# NY Times top 100
+
+When We Cease to Understand the World
+
+The Emperor of All Maladies
+
+The Return
+
+The Sympathizer
+
+The Human Stain
+
+Station Eleven
+
+Bring Up the Bodies
+
+Bel Canto
+
+Tree of Smoke 
+
+Septology
+
+Exit West
+
+The Passage of Power
+
+Secondhand
+
+Far From the Tree
+
+The Plot Against America
+
+10:04
+
+The Looming Tower
+
+Tenth of December 
+
+Life after life
+
+Persepolis
+
+A mercy 
+
+The goldfinch 
+
+The fifth season 
+
+Postwar
+
+A brief history of seven killings
+
+White teeth 
+
+Sing unburied sing
+
+The last samurai
+
+Atonement
+
+Random family 
+
+Behind the beautiful forever
+
+Erasure
+
+Say nothing
+
+Lincoln in the bardo
+
+Pachinko 
+
+Outline
+
+The road
+
+Never let me go
+
+The Underground Railroad
+
+2666
+
+The warmth of other suns
+
+My brilliant friend
+
+---
+## Related
+- [[Books]]
+- [[Readwatch]]
+
+---
+
+### Input/Books/Booklist/PM Books.md
+# PM Books
+
+Decode and Conquer
+Cracking the PM Interview
+Cracking the PM career
+Escaping the Build Trap
+The Lean Product Playbook
+Hooked: How to Build Habit-Forming Products 
+Inspired: How to Create Products Customers Love
+Supeethinking mental models
+7 habits of really successful people
+1. How to win friends and influence people 2. Influence
+3. Inspired
+4. The lean product playbook 5. Never split the difference 6. Crucial conversations
+5. Sum forty tales from afterlife
+6. The art of thinnking clearly
+Critique of pure reason
+
+---
+## Related
+- [[Books]]
+- [[InterviewSteps]]
+- [[Product thinking improvement]]
+
+---
+
+### Input/Books/Booklist/Philosophical books.md
+# Philosophical books
+
+The begining of infinity
+The fabric of reality
+The alamanc of naval ravikant
+The rational optimist
+The code breaker
+Einstein and his life in universe
+Lranardo danvinci Walter issacson
+Richar dawkins
+Christopher hitchens
+Fantasies and reflection on self and soul
+
+---
+## Related
+- [[Philosophy]]
+- [[Readwatch]]
+- [[Why users do not matter]]
+
+---
+
+### Input/Books/Booklist/Philosophy.md
+# Philosophy
+
+Arthur shopenhauer
+1. Councils and maxims
+Osho 
+1. The great challenge 
+Jd Krishnamurthy
+1. Think on these things
+2. Book of life
+Kapil gupta
+Rupert spira
+Anthony dmello
+1. Way to love
+2. Awareness 
+Stephen miller
+1. Bhagwad Gita
+2. Tao te Ching 
+1. The Tao of seneca
+2. Moral letters to licilius
+
+---
+## Related
+- [[Philosophical books]]
+- [[Control&Reality]]
+- [[life&freedom]]
+- [[Readwatch]]
+
+---
+
+### Input/Books/Booklist/Very short introduction.md
+# Very short introduction
+
+Knowledge very short introduction
+Philosophy of science VSI
+Philosophy vsi
+Psychology vsi
+Quantum theroy 
+Laws of thermo 
+Logic
+Consciousness
+Metaphyscis
+Globalisation
+
+---
+
+### Input/Books/review/Book - range.md
+# Book - range
+
+Specialisation vs generalisation 
+Sample different things before committing 
+Slow learning is the most effective, even if it means doing immediate evaluation
+Sacrificing depth to sample different domains leads to creativity
+Going to in depth, generally decreases once knowledge and increases confidence, which is a dangerous combination 
+Over specialisation, leads to missing forest for the trees 
+
+Breadth helps introduce creativity only after sufficient depth 
+
+So study something go in depth, then you are stuck expand your area of questioning 
+
+Experience is not equal to expertise but confidence is 
+
+Experience help helps in kind learning environment where patterns repeat over and over feedback is extremely accurate and usually very rapid 
+
+In wicked domains, the rules of game are often clear incomplete. There are no repetitive patterns which are obvious feedback is often delayed and inaccurate or both. 
+
+So in a kind environment machines will beat any human but humans will always have lead in the wicked enviroment where rules are not clear hence can’t be codified 
+
+Basically machines can excel in tactics the ones which expert spent long time honing but humans are far ahead in strategy 
+
+Even in kind environment as soon as rules changes, all the expert knowledge or in case of machine training is obsolete
+
+So there are no superhuman reactions just recognition of pattern due to years of deliberate practice 
+
+So for example, in chess, the more time you have to understand, recognise and store this patterns, the moon number of patterns and more complex pattern you will be able to Store. Hence it is very critical that chess training starts at an early age because more time more specialisation. 
+
+There are no sawant just just patterns, their chunking and their retrieval
+
+So the domains in which skills linearly increase with repetitive practice due to patterns are easiest to be automated
+
+Some machine and humans have opposite strength and weaknesses while machines excel at narrow specialisation, power through pattern recognition, human Excel, broad strategic decision, making power through probably evolution because it requires creativity
+
+So specialise in things which have defined rules, quick, and accurate feedback
+
+When a specialist in kind environment put in a wicked environment, they really struggle and just go to the first solution that pops in their mind, which usually backfires
+
+All this tells us that expert lose their expertise as soon as rules are altered, so in your domain aim for flexibility by constantly changing your rules for the world and always keep 1 foot out of your world
+
+Linear increase in skill is only possible in kind environment where repeatable pattern and instant and accurate feedback exist . 
+This environment is most ripe for automation due to presence of clear rules .
+When the experts are shown in and kind environment, their skills when suddenly.
+Generally, hyper performer combine multiple domains and creatively extrapolate 1 to another to find solution which may not have been possible by just going deep in 1 to me
+
+---
+## Related
+- [[Creativity]]
+- [[What am I good at]]
+- [[Edge]]
+- [[Th]]
+
+---
+
+### Input/Habits/Aim.md
+# Aim
+
+Current 
+1. Physical 
+- Swimming 
+- Surfing 
+- Badminton 
+- Cycling 
+- Boxing
+- Jujitsu
+- X pushups and pull ups 
+- Strength training 
+- Running
+
+2. Do 
+- Startup 
+- Write PRDs for other companies 
+- Learn Kannda
+- LLM 
+- psychology
+- game theory
+- humanities
+
+2. Spiritual 
+- Mediation 
+Product (2)  - Work , other company problem 
+Startup Idea (2)
+Psychology(2)  - Bias, question to ask 
+Weekly intorespection (1)
+
+
+Daily 
+1. One chess game - 1600 rapid ranking
+2. One hour mediation - one saved question for week or idea and product
+3. 30 pushups 20 pull ups
+4. 15 min Kannada
+5. One product video
+6. Read book- 30 mins - finish a book in 5 weeks
+7. 
+
+Weekly 
+1. Article on question/ product thought during mediation
+2. Progress on idea
+
+
+Implement it daily 
+Measure it
+Keep doing it daily till it become a sub conscious habit 
+Move on to next thing to  improve
+To measure and monitor you need meditation so never skip it 
+
+
+This week
+1. Daily exercise 
+2. Strategy/roadmap/ design through mediation 
+3. One game chess
+4. One opening applied 
+5. One product video/ Article 
+6. One philosophy/psychology article
+7. Second order thinking -count how many times you did it
+8. Identify at least one bias every week, especially focus on things which makes you unhappy/ angry without any reason
+
+Thing to improve
+Conciously thinking about second order
+Work on project or write the article in long wekend about what you thought during mediation 
+
+---------------------------------------------------x----------------------------------------------x---------------------
+
+When you have money 
+1. Experience 
+- Wimbledon
+- F1 race 
+- Champions league final
+
+2. Do
+- Music instrument - Drum & Keyboard
+- Figma & Deisgn
+- Copywriting
+- Standup comedy 
+- Drive f1 car 
+- Create music 
+- Learn to fly 
+- Skydiving on own 
+- Alpine mountaineering 
+- Cooking 
+- Write poetry 
+- Novel / story 
+- Newsletter
+- X twitter subscriber 
+- Dance
+- IM Chess
+
+3. Learn
+- philosophy
+- Sci fi literature
+- epistemology
+- Algebra
+-  physics- black holes reality
+- personality test
+- quantum mechanics, economics
+
+---
+## Related
+- [[The plan]]
+- [[2026]]
+- [[Goals'24]]
+- [[Skills&Sports]]
+
+---
+
+### Input/Habits/Ambitious employability.md
+# Ambitious employability
+
+Saturday morning 
+Solve 1 product question every week 
+Write one article of ‘why’ question every week
+Work on  PRD for Cred or nykaa 
+
+Daily - morning
+Meditation 
+Exercise 
+Catchup on article/ news 
+Work on creating your own site 
+
+Daily/ evening 
+Book/ learn mcp etc/ language 
+
+Sunday morning 
+Work on startup idea
+Learn about LMM or MCP or vibe coding 
+
+Saturday evening 
+High leverage idea for office 
+Learn
+Article reading 
+
+Sunday evening- TV series / books 
+
+Saturday/ Sunday afternoon 
+Read articles/ books/ watch YouTube/ TV series 
+
+
+Try both startup and improving your resume through writing see what you like more in 2 months and the. Exclusively focus on it to generate income either through startup or through writing (target= aug end)
+
+
+
+Advertising 
+VC
+Cook 
+Play instrument 
+Play chess im 
+Multi lingual 
+Create music 
+Play squash
+
+---
+## Related
+- [[Habit]]
+- [[habit2]]
+- [[Edge]]
+- [[Substack]]
+
+---
+
+### Input/Habits/Habit.md
+# Habit
+
+Habit- no phone after 10, no phone on toilet, no shorts 
+Physical- exercise, cooking, driving, fighting, shooting, swimming, badminton, travelling 
+Mental - strachery, 1 Lenny video, 1 pm article, 1 psychology article,1 book 
+Spiritual - meditation 
+Building - ai and apps
+Ken2x2 
+Naval podcast 
+YouTube watch later video
+A movie 
+An episode
+
+Let’s do so things 
+And notes cleaning especially on how to ensure you achieve your plan for the week 
+Playtime with Abizar 
+Investmnet 
+Time with fattu 
+Time with parents
+
+Call H, vaibhav reply to Soumik’s meaage
+
+---
+## Related
+- [[habit2]]
+- [[Mornings]]
+- [[Night]]
+- [[absitenence_habit]]
+- [[Get rid of Digital Distractions]]
+- [[theorry_of_curiosity]]
+
+---
+
+### Input/Habits/Idea for self.md
+# Idea for self
+
+Theory of everything
+
+
+
+Understand thought behind thoughts and actions of yours and others 
+Theory of relativity 
+
+Keep reading - psychology, philosophy, books and videos 
+Meditating 
+Writing about the questions that come from meditation 
+
+De- addiction - feature phone 
+
+P-2 distraction - reading literature and experiment should feed into the ideas of app and vice versa 
+
+Define manifesto
+
+---
+## Related
+- [[theorry_of_curiosity]]
+- [[alternatebrain]]
+- [[absitenence_habit]]
+
+---
+
+### Input/Habits/MOC - Habits.md
+# MOC — Habits & Routines
+
+> [[MOC - Home]] → Habits & Routines
+
+---
+
+## Current Routines
+- [[habit2]] — Daily: meditation, writing, product/psychology/philosophy articles; weekends: vibe coding, LLMs
+- [[Mornings]] — Timed morning routine: meditation → exercise → family → news → PM articles
+- [[Night]] — Evening: books, writing, language learning; Twitter/LinkedIn deferred to weekends
+- [[routine]] — Weekday time-blocks: 6:30am wake, 11am–7pm office, 9–10:30pm personal
+- [[Routine copy]] — Full weekly schedule with Saturday investment block and philosophy reading
+
+---
+
+## Master Plans
+- [[The plan]] — Long-term plan: daily habits + entrepreneurial goals + learning targets
+- [[Aim]] — Multi-dimensional dev plan: chess, meditation, LLMs, surfing, F1, Wimbledon
+- [[Ambitious employability]] — Weekly schedule for startup + writing + PM interviews (2-month decision gate)
+
+---
+
+## Annual Goals
+- [[2026]] — Weekly habits + social goals + learning targets for 2026
+- [[Goals'24]] — Physical, spiritual, intellectual targets for 2024
+
+---
+
+## Weekly Plans (Specific)
+- [[Week 11th -18th Jan]] — Health, screen time, PRD writing, media targets for a specific week
+- [[routine_3]] — Monday breakdown + weekly targets: philosophy, Deepinder book, Jio Hotstar article
+
+---
+
+## Digital Discipline
+- [[absitenence_habit]] — Deep thinking sessions; 10-day mobile isolation experiment
+- [[Get rid of Digital Distractions]] — Five-point digital detox action plan
+- [[Ramzan]] — Using Ramzan as forcing function for mobile reduction
+- [[Habit]] — Four-pillar habit framework: phone rules, physical, mental, spiritual
+- [[Idea for self]] — Theory of everything; feature phone experiment; manifesto
+
+---
+
+## Reading Schedules
+- [[To read weekly]] — Structured weekly reading across 8 content categories
+- [[Weekdnlist]] — Weekend reading checklist: Stratechery, Rob Henderson, Kapil Gupta, Vsauce
+- [[Weekend tasklist]] — Specific weekend task list with Meesho analysis and LLM learning
+
+---
+
+## Cross-Links
+- [[theorry_of_curiosity]] — Why these habits matter: curiosity over distraction
+- [[Gamification- Quantifiable vs Imp]] — Warning against gamifying habits themselves
+- [[MOC - Philosophy & Self]] — Beliefs that underpin the habits
+- [[Skills&Sports]] — Skill-building roadmap linked to habit routines
+
+---
+
+### Input/Habits/Mornings.md
+# Mornings
+
+1. Meditation -15  mins
+5. Exercise and shower -60 mins
+6. Family time & Breakfast-30 mins
+7. News ET- 25 mins
+8. Indian express- 20 min
+9. Product articles- 30 mins
+      Pmcurve , akash Gupta , strachery, ken,                            wired
+ Product solving - 15 mins
+      Product management exercises
+
+---
+## Related
+- [[Habit]]
+- [[habit2]]
+- [[routine]]
+- [[Routine copy]]
+
+---
+
+### Input/Habits/Night.md
+# Night
+
+Books
+Relax and Write
+Languaage
+Twitter -save for weekend
+LinkedIn - save for weekend
+
+---
+## Related
+- [[Habit]]
+- [[Mornings]]
+
+---
+
+### Input/Habits/Ramzan.md
+# Ramzan
+
+1. Sleep at 10
+2. No mobile returning home
+3. Wake up at 8
+4. No mobile in bathroom
+5. No mobile till reaching office 
+6. Working on the idea all the time 
+7. Whenever you are free plan Vietnam trip, read strachery, listen to naval/ Kapil Gupta, read Ken , hackernews, Paul graham, reading list, YouTube bookmarks
+
+---
+## Related
+- [[Habit]]
+- [[absitenence_habit]]
+
+---
+
+### Input/Habits/Routine copy.md
+# Routine
+
+6.30 : wakeup -fet fresh , push up and pullup
+6.45 : exercise 
+7.45: bath 
+8.00: meditation 
+9.00: book
+9.30: news and articles - market by zerodha, finshots, et , Ken , finshots video
+10.00 breakfast 
+10.30: leave for office
+11.00:office
+7.00: home
+7.30: dinner
+9.00-10.30 fattu time 
+10.30-sleep
+
+Saturday
+10.30-12 family time 
+12-1 : investment
+3.30-4.30: et prime/Indian express/finshots
+4.30: learning/books/call
+5.30: product-product tear down & ideation ,Lenny, strachery
+6.30: psychology/call
+7.30-philpsophy/call
+
+Sunday
+12: chores
+3.30: et prime/Indian express/finshots
+4.30-6: analysis/call
+
+---
+## Related
+- [[routine]]
+- [[Mornings]]
+- [[The plan]]
+
+---
+
+### Input/Habits/The plan.md
+# The plan
+
+Daily 
+1. Good Sleep -8.5 hrs fixed time
+2. Water plants
+3. Meditation- 1hr
+Theory of Knowledge 
+Analyse performance on 6 principle 
+
+5. Exercise/ sports 
+50 pushups and pullups 
+6. Read - book and write
+7. Read
+     ET tech 
+     Indian express
+     Wired Daily
+     ET Prime 
+     Ken 
+     Product articles
+     Interview video 
+     Psychology 
+     Philosophy 
+
+7.30-8  -linkedIN / X 
+Plan what to read tomorrow every night 
+
+Weekend
+Saturday 
+12-1 pm -> Investing articles and planning / Nutgraf/ wired long reads
+ET MONEY, Shankar, Khandelwal, prime investor
+
+3.30-4 -> Book for new topic 
+Open RH 
+
+5-6.30-> Start up idea/ app
+6.30-7.30- Write and create community 
+7.30-8.30- Psychology/Philosophy/ Product /interview
+
+Sunday 
+12-1 pm -> Chess/language/ FP
+3.30-4.30 -> Book for new topic 
+5-6 -> Cook/ tv series 
+
+Long term 
+1. Trek / surfing/ shooting - this year surfing 
+2. Travel 
+3. New food exploration - turkish 
+4. Watch events : formula 1 Wimbledon football match
+5. New skill - language, musical instrument, cooking,Food, sports , fight , chess, surfing
+6. Topic to learn - quantum mechanics, LLM, economics, physics, reality, game theory etc, personality test, humanities
+buy gun and learn to kill 
+
+
+1. Enterprenuership 
+Idea 
+Block 1 hour every Saturday  and every free time you find in between 
+Think about metro vs non metro 
+If non metro what do they value enough to pay for regularly 
+2. Start talking more to high leverage people 
+Next step: summarise poverty lab and send it to Ankit
+Maintain useful fortnightly contact 
+3. Save 
+Give 1 hour every Saturday morning for investment 
+4. Expose yourself more to high stakes decisions and project 
+5. Invest in understanding people 
+6. Develop willpower
+
+
+
+
+1. Experience physically 
+So learn new things 
+Language, music, fight , sports, write, read
+2. Learn mentally 
+Question things you know to understand world and people and systems - physics, reality, psychology, philosophy, economics
+3. Analyse and reflect
+Above theory contains following sub theories
+1. Curious- bias for action - never give up 
+2. Be top5% in 3-4 fields to become rich 
+3. Living a rich life with good enough suffering, non-monotonous life after all what is worst than that
+4. Live at the edge.. edge of risks, possibilities, imagination else what’s the point 
+5. Be consistent and show up everyday - this is where you lack most.. consistency does not mean boring but being consistent to something helps you identify your talent at particular skill and move on quickly if required
+
+Write a book on kota
+
+---
+## Related
+- [[routine]]
+- [[Routine copy]]
+- [[Aim]]
+- [[2026]]
+
+---
+
+### Input/Habits/Week 11th -18th Jan.md
+# Week 11th -18th Jan
+
+- [ ] Get exercise 5 days a week
+- [ ] Get mediation 5 days a week
+- [ ] Sleep same time as HER 5 days a week
+- [ ] No mobile after 10= 5days a week
+- [ ] Screen time <2 hours on weekday
+- [ ] Write PRD for 3 hours on Sat evening
+- [ ] Progress on Uber Article- Saturday morning
+- [ ] Watch Training Day
+- [ ] MR robot epsiode 3
+- [ ] Read one article day from reading list or already opened
+- [ ] Consolidate 5 articles to be sent this week Write article abouut in on Sunday m orning - 1 hour Sunday morning
+- [ ] Tea on Sunday
+- [ ] Plan Goa Trip on Sunday evening
+- [ ] Daily ensure
+- [ ] Stachery/lenny
+- [ ] article from already oepned or reading list
+- [ ] one artcile from labels
+- [ ] one video from save later
+- [ ] one tweet from bookmark
+
+---
+## Related
+- [[habit2]]
+- [[Ambitious employability]]
+
+---
+
+### Input/Habits/absitenence_habit.md
+Why twitter us more important than flying cars?
+Sin or community over Development of civilisation 
+Wrong incentives?
+
+
+Write about contradictory things like why bullying can be good?
+
+Use your brain and do extreme thinking(depth) for sustained period of time while depriving your mind of pleasure or break 
+
+Have at least two  one hour of session of depth 
+Before each session have creative one hour session (breadth)
+Keep expanding periods of time where only stimulus are your thoughts
+Avoid passive consuming ( except from curated creators) who can be used for idea seeding 
+Doubtful in this also probably needs to reach a level where they are just informing about new area of themes without taking anything from them 
+But the question is it rational to rehash things which people have already thought of 
+Have two options identify a branch completely unthought of or go very deep in already thought of 
+Question is how to gather hypothesis without getting distracted or bias 
+
+Let’s do that in those 10 days completely avoid contact with mobile or other humans 
+Just get elevated 
+
+Think 
+Write 
+Pleasures-
+Read books
+Listen music
+Play chess
+
+Ensure sleep at time and exericise 
+Let’s see how it goes ?
+
+
+
+
+
+But next level needs to come from you for it to be original and interesting not from frameworks or travelling path generally travelled by others 
+
+
+
+Think how to approach the conversation where you tell ankit 
+That I think you think you need to show me my place but I am organically not arrogant was just having fun 
+But this domination kills creativity think more
+
+
+Job -eightfold, PayPal wtc
+Learn Figma and coding
+Cologne 
+Upload shirt pics to gpt to get jeans recommendation
+Back cover
+Bedside drawers and lamp 
+Almirah
+
+
+Wait for Myntra and Walmart guys to accept request till Wednesday 
+Contact Hemant for flexport
+
+
+FTUX for view details of leader board
+Separate question level report 
+Add you in leaderboard
+
+Analysis bandwidth crunch for the data and execution and backfilling 
+Tech bandwidth crunch one BE who is also on call one week 
+We aligned it’s not important
+
+Since she is saying no leaderboard she either saw old or provisional 
+Since her multiple ranks are also not present so definitely provisional 
+
+Topper time 
+Bring cbt data
+
+---
+## Related
+- [[Habit]]
+- [[habit2]]
+- [[theory_of_curisity_2]]
+- [[Get rid of Digital Distractions]]
+
+---
+
+### Input/Habits/habit2.md
+Meditate- daily 1 hour 
+2- write daily 30 mins two hours on weekends 
+Read 1 article on product, psychology and philosophy daily , 3 on weekends
+Vibe code - weekend 2 hours 
+New topic like LLMs - 2 hours 
+YouTube and and twitter saved - 2 hours 
+
+
+Saturday 
+Before breakfast- exercise and meditation 
+After breakfast - write 
+Evening - vie code and saved twitter
+
+Sunday 
+Before breakfast- exercise and meditation 
+Read - 2hours 
+Evening- saved YouTube and new topic
+
+Do it more and regularly to become great 
+
+
+
+Praoduct - Lenny, strachery, , vibe code
+Philosophy- Kapil Gupta, book, video
+Psychology- rob henderson, video, leading edge 
+New topic- LLM 
+
+Reading list
+
+---
+## Related
+- [[Habit]]
+- [[Mornings]]
+- [[Night]]
+- [[absitenence_habit]]
+- [[theory_of_curisity_2]]
+
+---
+
+### Input/Habits/routine.md
+Monday 
+1. Exercise 
+2. 15 minutes mediations?
+3. Swimming 
+4. Ken and FP Linked articles 
+5. Doc on holidays combining all that you have witten in notes, apurv doc and soura blueprint doc
+6. CX related changes 
+
+Week
+1. Philosophy book 
+2. Deepinders book 
+3. Write on Jio hotstar monetisation 
+4. Watch 3 saved videos 
+5. Ponder on 10 saved tweets 
+6. One 2 hour mediation session 
+7. 2 product article 
+8. 2 psychology article
+
+---
+## Related
+- [[Mornings]]
+- [[The plan]]
+- [[Routine copy]]
+
+---
+
+### Input/Habits/routine_3.md
+Pushups 
+Squats 
+Ken 
+Et
+Finshot 
+Zerodha YouTube update 
+One product article 
+One psychology 
+One tweet
+Kannada bhasha
+Write
+
+---
+## Related
+- [[routine]]
+- [[habit2]]
 
 ---
 
@@ -1390,6 +2648,575 @@ Or convert impulsive traders into long-term investors so that super idea makes s
 
 ---
 
+### Input/Reading/Books/Booklist/Books.md
+# Books
+
+The gualg archipelago
+The Billionaire's Apprentice: 
+Mind Without FearMind Without Fear
+Half - Lion: How P.V Narasimha Rao Transformed India
+
+Who Killed Shastri?: The Tashkent Files
+This Divided Island: Stories from the Sri Lankan 
+The Unfair Advantage:
+Gone with the Wind
+Gone Girl
+The Whisper Man: The chilling must-read 
+Black Flags: The Rise of ISIS
+The Longest Day: The Illustrated Edition
+The Looming Tower: Al-Qaeda and the Road to 9/11
+Man's Search For Meaning: The classic tribute to hope from the Holocaust 
+Stalingrad
+The Accidental Billionaires
+The girl with the dragon tattoo
+A promised land 
+Psychology of money 
+The bed of Procrustes
+In Cold Blood (Modern Library 100 Best Nonfiction Books)
+Black swan
+Antifragile 
+Fooled by randomness
+Skin in the game 
+The choice : A true story of hope 
+The alchemist 
+The archer 
+Original Gangstas: The Untold Story of Dr. Dre, Eazy-E, Ice Cube,
+The Splendid and the Vile: A Saga of Churchill, Family and Defiance During the Blitz
+The spy and the taitor
+Power of habit
+Crime and punishment
+The courage to be disliked
+In praise of the shadows
+The Lazarus heist
+Existential Physics: A Scientist's Guide to Life's Biggest Questions
+Creativity 
+Actionable gamification 
+A little life
+Build tony fadell
+Ghost in the wires 
+The art of doing science and engineering 
+Civilised to  death
+midnighti n chernobyl
+The lost signal 
+The shattered lands 
+The anarchy William darymple
+A general theory of love 
+Zen and the art of motorcycle maintenance
+
+---
+
+### Input/Reading/Books/Booklist/Categories of books.md
+# Categories of books
+
+Fiction 
+Non fiction 
+Psychology 
+Economics
+Behavioural theory 
+Philosophy 
+Game theory 
+Design 
+Product 
+Autobiography 
+
+To calculate student proficiency based on performance across questions of varying difficulty, a model can be developed using a weighted scoring system. This involves assigning weights to questions based on their difficulty levels. 
+
+For example, if a student answers questions correctly, the score can be calculated as:
+
+$$
+\text{Proficiency Score} = \sum \left( \text{Weight}_{i} \times \text{Correct}_{i} \right) / \sum \text{Weight}_{i}
+$$
+
+where $$ \text{Weight}_{i} $$ is the difficulty weight of question $$ i $$ and $$ \text{Correct}_{i} $$ is 1 if answered correctly, otherwise 0. This approach allows for a nuanced understanding of student performance across different difficulty levels[3].
+
+---
+
+### Input/Reading/Books/Booklist/NY Times top 100.md
+# NY Times top 100
+
+When We Cease to Understand the World
+
+The Emperor of All Maladies
+
+The Return
+
+The Sympathizer
+
+The Human Stain
+
+Station Eleven
+
+Bring Up the Bodies
+
+Bel Canto
+
+Tree of Smoke 
+
+Septology
+
+Exit West
+
+The Passage of Power
+
+Secondhand
+
+Far From the Tree
+
+The Plot Against America
+
+10:04
+
+The Looming Tower
+
+Tenth of December 
+
+Life after life
+
+Persepolis
+
+A mercy 
+
+The goldfinch 
+
+The fifth season 
+
+Postwar
+
+A brief history of seven killings
+
+White teeth 
+
+Sing unburied sing
+
+The last samurai
+
+Atonement
+
+Random family 
+
+Behind the beautiful forever
+
+Erasure
+
+Say nothing
+
+Lincoln in the bardo
+
+Pachinko 
+
+Outline
+
+The road
+
+Never let me go
+
+The Underground Railroad
+
+2666
+
+The warmth of other suns
+
+My brilliant friend
+
+---
+
+### Input/Reading/Books/Booklist/PM Books.md
+# PM Books
+
+Decode and Conquer
+Cracking the PM Interview
+Cracking the PM career
+Escaping the Build Trap
+The Lean Product Playbook
+Hooked: How to Build Habit-Forming Products 
+Inspired: How to Create Products Customers Love
+Supeethinking mental models
+7 habits of really successful people
+1. How to win friends and influence people 2. Influence
+3. Inspired
+4. The lean product playbook 5. Never split the difference 6. Crucial conversations
+5. Sum forty tales from afterlife
+6. The art of thinnking clearly
+Critique of pure reason
+
+---
+
+### Input/Reading/Books/Booklist/Philosophers.md
+# Philosophers
+
+Neitszche
+Fydor Dostoevsky
+Jung
+Camu
+Victor frankl
+
+Sartre
+Aristotle
+Lato
+Kant 
+Hegel
+
+Aerilius 
+
+Arthur shopenhauer
+1. Councils and maxims
+Osho 
+1. The great challenge 
+Jd Krishnamurthy
+1. Think on these things
+2. Book of life
+Kapil gupta
+Rupert spira
+Anthony dmello
+1. Way to love
+2. Awareness 
+Stephen miller
+1. Bhagwad Gita
+2. Tao te Ching 
+3. The Tao of seneca
+4. Moral letters to licilius
+
+Aristotle
+
+https://www.amazon.com/Aristotles-Nicomachean-Ethics-Aristotle/dp/0226026752?crid=21STT1QNIJ5GC&dib=ey
+
+---
+
+### Input/Reading/Books/Booklist/Philosophical books.md
+# Philosophical books
+
+The begining of infinity
+The fabric of reality
+The alamanc of naval ravikant
+The rational optimist
+The code breaker
+Einstein and his life in universe
+Lranardo danvinci Walter issacson
+Richar dawkins
+Christopher hitchens
+Fantasies and reflection on self and soul
+
+---
+
+### Input/Reading/Books/Booklist/Philosophy.md
+# Philosophy
+
+Arthur shopenhauer
+1. Councils and maxims
+Osho 
+1. The great challenge 
+Jd Krishnamurthy
+1. Think on these things
+2. Book of life
+Kapil gupta
+Rupert spira
+Anthony dmello
+1. Way to love
+2. Awareness 
+Stephen miller
+1. Bhagwad Gita
+2. Tao te Ching 
+1. The Tao of seneca
+2. Moral letters to licilius
+
+---
+
+### Input/Reading/Books/Booklist/Very short introduction.md
+# Very short introduction
+
+Knowledge very short introduction
+Philosophy of science VSI
+Philosophy vsi
+Psychology vsi
+Quantum theroy 
+Laws of thermo 
+Logic
+Consciousness
+Metaphyscis
+Globalisation
+
+---
+
+### Input/Reading/Books/review/Book - range.md
+# Book - range
+
+Specialisation vs generalisation 
+Sample different things before committing 
+Slow learning is the most effective, even if it means doing immediate evaluation
+Sacrificing depth to sample different domains leads to creativity
+Going to in depth, generally decreases once knowledge and increases confidence, which is a dangerous combination 
+Over specialisation, leads to missing forest for the trees 
+
+Breadth helps introduce creativity only after sufficient depth 
+
+So study something go in depth, then you are stuck expand your area of questioning 
+
+Experience is not equal to expertise but confidence is 
+
+Experience help helps in kind learning environment where patterns repeat over and over feedback is extremely accurate and usually very rapid 
+
+In wicked domains, the rules of game are often clear incomplete. There are no repetitive patterns which are obvious feedback is often delayed and inaccurate or both. 
+
+So in a kind environment machines will beat any human but humans will always have lead in the wicked enviroment where rules are not clear hence can’t be codified 
+
+Basically machines can excel in tactics the ones which expert spent long time honing but humans are far ahead in strategy 
+
+Even in kind environment as soon as rules changes, all the expert knowledge or in case of machine training is obsolete
+
+So there are no superhuman reactions just recognition of pattern due to years of deliberate practice 
+
+So for example, in chess, the more time you have to understand, recognise and store this patterns, the moon number of patterns and more complex pattern you will be able to Store. Hence it is very critical that chess training starts at an early age because more time more specialisation. 
+
+There are no sawant just just patterns, their chunking and their retrieval
+
+So the domains in which skills linearly increase with repetitive practice due to patterns are easiest to be automated
+
+Some machine and humans have opposite strength and weaknesses while machines excel at narrow specialisation, power through pattern recognition, human Excel, broad strategic decision, making power through probably evolution because it requires creativity
+
+So specialise in things which have defined rules, quick, and accurate feedback
+
+When a specialist in kind environment put in a wicked environment, they really struggle and just go to the first solution that pops in their mind, which usually backfires
+
+All this tells us that expert lose their expertise as soon as rules are altered, so in your domain aim for flexibility by constantly changing your rules for the world and always keep 1 foot out of your world
+
+Linear increase in skill is only possible in kind environment where repeatable pattern and instant and accurate feedback exist . 
+This environment is most ripe for automation due to presence of clear rules .
+When the experts are shown in and kind environment, their skills when suddenly.
+Generally, hyper performer combine multiple domains and creatively extrapolate 1 to another to find solution which may not have been possible by just going deep in 1 to me
+
+---
+
+### Input/Reading/Books/review/Hard things about hard things.md
+# Hard things about hard things
+
+1. “the hard thing about hard things—there is no formula for dealing with them 
+2. avoid being influenced by first impressions and blindly adhering to convention. 
+3. Collect diverse, alternate and even constrasting perspective to form opinion
+4. Do not give up and be aware of things going bad - dot com crash- desperate IPO- loudcloud bankruptcy- EDS loss - shit blade threat 
+5. Ask yourself what are we not doing
+
+---
+
+### Input/Reading/read_watch/5 articles.md
+# 5 articles
+
+1. My boy : https://open.substack.com/pub/houseofstrauss/p/my-boy?r=fjznf&utm_medium=ios&shareImageVariant=overlay
+2. a16z : https://www.notboring.co/p/a16z-the-power-brokers?utm_campaign=post&utm_medium=web
+3. Bilateral negotiation in India: https://www.strangeloopcanon.com/p/life-in-india-is-a-series-of-bilateral?utm_campaign=post&utm_medium=web
+4. Bangalore mobility problem: https://youtu.be/FsZKG2TxjCk?si=Oqv55QmUH3eRGZxk
+5. Gift : https://youtu.be/Nda35sFZJGg?si=ZGT12t_LKaZd8Nma
+6. investing beyond US: https://youtu.be/yj2WZtETfXQ?si=HwBA3vWJ1pPUwffF
+7. Tax saving on leasing: https://youtu.be/TI-lpvcD39Q?si=MU17Q_scugC15msO
+
+---
+
+### Input/Reading/read_watch/Readwatch.md
+# Read/watch
+
+David oglivy executive director ted talk 
+
+Effective writing 
+https://youtu.be/vtIzMaLkCaM?si=cog4TWpyH7lCQvSj
+
+Hemant Mohapatra
+Omega files
+Indus Valley report
+
+Lenny’s podcast
+https://youtube.com/@LennysPodcast?si=sveQt9iYHVLC40nN
+
+Strachery
+https://stratechery.com/
+
+Paul g
+https://paulgraham.com/articles.html
+
+Pmarca
+Optimist tech manifesto
+
+Huber man 
+https://youtube.com/@hubermanlab?si=hBJgWqDtHbE80eX7
+
+Lex Friedman 
+https://youtube.com/@lexfridman?si=MzIuW-aIEMCRroXn
+
+Indian pivot
+https://open.substack.com/pub/theindianpivot?r=fjznf&utm_medium=ios
+
+Rob Henderson
+
+---
+
+### Input/Reading/read_watch/To readwatch.md
+# To read/watch
+
+Blume report -indus valley/ omega files
+Dibakar/संजय गुप्ता  interview
+Kunal Shah podcast
+Zakir /upmanyu/gill
+
+---
+
+### Input/Reading/read_watch/Weekend list.md
+# Weekend list
+
+1. Damis podcast
+2. George Mack article about agency 
+3. Ambrish and kunal
+4. FP articles 
+5. Listen to nationally
+
+Onavo - fb
+
+https://haxrob.net/onavo-facebook-ssl-mitm-technical-analysis/
+
+Original pirates
+
+https://youtu.be/joRsWEqfvKE?si=3zF4Gep7_OO9uwoA
+
+Generative ai mit twitter bookmark 
+
+Kapil Gupta and Shreyas Doshi 
+
+LLM 3 blue brown 
+
+Markets by zerodha
+
+https://blog.google/products/search/ai-search-driving-more-queries-higher-quality-clicks/
+
+
+Kanye documentary
+
+---
+
+### Input/Reading/read_watch/ww2.md
+Reinhard Hyderich 
+Himmler 
+Gobbles 
+Eichman 
+Mengele
+Jecklen
+Otto ohlendrof
+
+
+Hans guderian - fast blitzkreig France and Soviet Union 
+Walter model - defence - soviet and France
+Rommel - blitzkreig in Africa 
+Manstein - France plan and lots of win in soviet
+
+---
+
+### Input/Thinking/Ken event.md
+1. The app working and mediating transaction is possible within an ecosystem because you can bound them. While china has auper apps India doesn’t and hence limits the capability 
+2. While large orgs can use agentic ai and reduce friction but they can get disrupted because agentic ai can destroy th distribution moat 
+3. While breadth of adoption (no of people ) can be slow the depth will be fast (no of use case served by agent for the individual ) because one you start using them they understand you better and increases the probability over time agent decison aligning with the user. Since personalisation in built in the technology as a feedback loop the depth adoption could be really fast
+4. Agent destroys GMV from cross sell and destroys margins because of efficiency and lack of earning from ads
+5. How will ads work in agentic platform?- incentivise the human or agent which will be a hit to margin because right now you don’t offer anything to the human for ads, add would become more manipulative because now there is one more entity with incentive which is also a decision maker but not a payer-  advertising started with visibility (just paper ad’s) the performance marketing, not it can be just agent marketing where two agent negotiate a company agent and customer agent and company agents are trained to rightly incentivise a given agent based on their personalisation human agent.  So two agents can be there where I pay for my agents and their aligned to my goal or I do not pay for them some other entity pays but I do not get most optimal decision for myself but the best negotiated between influencer agent and the company agent. But even if I pay for my own agent it is practically impossible to define in current architecture an agent which will solely work my benefit and not get swayed, because agent mimic humans and we are swayed by social media even though it is not good for me. It will be constant car and mouse where company agents will be trying to manipulate the human agent and human agent trying to resist them (hence somebody can charge for constants improving them). For influencer agent there will be a more of api level alignment. But money can be made in both will have to think. Performance comparison is also you can take subscription for two service which sell you human agent  and who fetched you to e best price and time. 
+
+Agent rule (what and what not to do ) and objective definition (price/ time)
+Tangential recommendation for what could be good for them their dietary preferences etc 
+Somebody has to built an experience to get this requirement, constantly personalise and get strong against manipulation and hence become more efficient 
+Also you can suggest based on similarity between two humans if their preference are very similar then it can suggested to human 1 what they don’t consume which is consumed by human 2 
+
+Agent will cause upheaval in discovery 
+1. Search 
+2. Recommendation 
+3. Ranking 
+Etc becomes irrelevant because their is no alpha what is placed where when the agent can just scan the whole catalogue 
+
+
+If AI destroys the advertising which is primary way of discovering new brands, which means it really factories the incumbents especially the ones who do not drive significant margins from advertising in the first place
+
+Payments can easily disrupted because PhonePe etc do not own the apis its public utility like NPCI 
+
+Lot of moat dicussion centre for app center around habit formation which simply goes away as agents have no habit 
+
+While we want agent to behave like us but without our evolutionary quirk of emotions, dopamine and habit formation. So they have opinions and personality but do not have liability or human emotions, laziness and abhorrence to friction and hence will be always kore efficient 
+
+They know your choice plane but they will make the most efficient writhing that plan 
+
+There is no attention economy ( ads and cros- sell )
+
+
+4. Biggest blocker is why incumbents open their api ? Can a business of building a basket be built without the open apis? If not what is the incentive for the incumbents to open their api to agents?
+
+
+So good for incumbents
+Absence of advertising deters challenges
+Regulation favors 
+
+
+Behaviour shaping is gone with agent 
+
+Agents will lead to unbundling, destroy the aggregators because the most optimal choice will be made by the agent uninfluenced by brand , platform , ad’s or habits 
+And the money saved on advertising can be provided directly to consumers thus driving loyalty and cutting out middleman 
+Because agent don’t need fancy interface they just need information to make the decision 
+The only way for platform to survive is to gatekeep the information, what will be incentive for them to share the information feeely and destroy themselves ? That’s the biggest question 
+
+But platform also bring trust it not just about efficiency but reliability of delivery of promised service. Again platform  can gatekeep this information 
+
+For example if there are millions of shopify sellers how do you know which one to trust 
+
+So, even if supply is present out side of the platform (through millions of shopify storefront) (sill do not know who will incentivise that and spend money )
+
+How will you bring trust 
+Probably ONDC is solution 
+Which has the data for trust but data without arbitration is useless 
+For example with a transaction for which return request was raised whether customer is right or seller is right 
+But give we have aggregated data with multiple data points for both sellers and buyers then we can determine the probability of one being wrong 
+
+Also has connection protocol without any gatekeeping where shopify storefronts can connect
+
+Somebody has to act as a reputation as a service 
+
+
+Why discovering nth order effect gives you so much joy ? Intelligence , serendipity, novelty, seeing the future 
+
+The problem with protocols is the biggest user starts defining rather than using it, for example gmail now defines the mail protocol 
+
+
+Why Indians like to shit on India?
+
+In AI era they winners will be who understand systems thinking
+
+Use these points in the mail to think through for multiple companies and go in detail for every point 
+1. Economies is scale : marings and opportunity 
+2. Attention economy 
+3. Friction as business model- sell convenience, behaviours and habits  
+4. Moats - regulation, trust, 
+5. Protocols 
+6. Supply and trust 
+Based on the above disruption possibility determine which business is ripe for disruption 
+
+Use the above to build and alt income idea and also publish articles
+What business you can build where humans should do something which is optimal but don’t do it out of laziness, habit , lack of information or emotions
+
+How will agent solve for trust and choice? 
+So maybe do it for a business which requires lower trust and not much is on the line
+
+Brand pricing power depends on 
+1. Switching cost 
+2. Unavoidable 
+3. Ability to not be commdotisee
+
+
+Payments (due to trust issues) and logistics can be the biggest winner 
+
+Apply for sarvam and Razorpay 
+
+
+Learn from urban company how it was able to avoid the direct connection between worker and customer
+
+Platform are there for trust and accountability and reliability 
+
+Use agents to get best car price across India include out of the state registration 
+Check Claude code
+
+Use reditt to get stories and build video on that rather build an AI PM channel which uses your product brain and current news to automatically post videos
+Basically a trained model for content generation both videos and articles
+
+---
+
 ### Input/Thinking/MOC - Philosophy & Self.md
 # MOC — Philosophy & Self
 
@@ -1702,6 +3529,12 @@ Balance - structured   chaos
 - [[Nov 17th]]
 - [[Nov 6th]]
 - [[First principal & biases]]
+
+---
+
+### Input/Thinking/musings/Balance is average.md
+Learning by building, we need equal amounts of build and thinkers. Maybe there is a loop between fun of building tiredness of building and then legend of the building. Because you know how tired you get there is no balance you have to leave at the edge of possibility should the short that you think will never work work till you are exhausted aspire to become what you can never be.
+While I seeing that, I am doing all this building to get away from the daily hustle hustle, and do what I like. I am afraid that I’m liking so much that at the end of the path, I will realise that this is what I like I like the treadmill, it is sad and rejuvenating.
 
 ---
 
@@ -3489,6 +5322,99 @@ Work that is
 
 ---
 
+### Output /Investment/Investment (2).md
+# Investment
+
+Invest reaming amount of this year at march end
+Use safal niveshak to indetify Indian stocks 
+Do SIP in us stocks 
+Continue learning through prime investor and Ashwath 
+
+Analyse portfolio in may once you have clarity of next year incoming 
+Use risky source too 
+Dividend fund
+Arbitrage fund
+Keep eye on SGB issuance
+
+---
+## Related
+- [[Investment]]
+- [[Statistics]]
+
+---
+
+### Output /Investment/Investment.md
+# Investment
+
+“In a country like India we really need to focus on expanding the market,” said Gupta. “You are at a 16% mutual fund-to-GDP ratio when the world average is 80%. We should expand the pie and not focus on how to divide it
+
+23k cr monthly SIP@ sep’24
+
+---
+## Related
+- [[Investment (2)]]
+- [[Risky]]
+- [[US Stocks]]
+- [[exit_fund]]
+- [[Statistics]]
+- [[MOC - Investment]]
+
+---
+
+### Output /Investment/Risky.md
+# Risky
+
+1. P2P- Liquiloans
+2. Real state fractional owning- Strata or proptech, Reits
+3. Asset leasing- Grip 
+4. Senior secured bond- wint wealth 
+5. Invoice discounting Jiraaf
+
+---
+## Related
+- [[Investment]]
+- [[exit_fund]]
+
+---
+
+### Output /Investment/US Stocks.md
+# US Stocks
+
+Apple  -7.5
+Microsoft -12.5
+Google -10
+Tesla -5
+amazon - 5
+Airbnb 7.5
+Facebook -10
+Netflix-7.5
+Adobe- 5
+Coinabse 7.5
+Nvidia-15
+And-7.5
+
+---
+## Related
+- [[Investment]]
+- [[exit_fund]]
+
+---
+
+### Output /Investment/exit_fund.md
+Exiting mutual fund 
+1. 10% small cap valuation 
+2. Rebalancing 
+3. Goal achievement 
+4. Fund under peeformance
+
+---
+## Related
+- [[Investment]]
+- [[Risky]]
+- [[US Stocks]]
+
+---
+
 ### Output /Project /alternate_project.md
 # Alternate Income Project — Cash Engine Strategy
 
@@ -4233,6 +6159,152 @@ Thus platform becomes a single point of candidates mobility across the ecosystem
 
 ---
 
+### Output /Shopping /Aspire.md
+# Aspire
+
+Newyorker
+Wired
+Laser tretment 
+Lasik
+Strachery
+Playstation
+Dishwasher
+Robo cleaner
+Laptop
+Dental slignment
+
+
+
+Smart watch -pixel/apple
+Standing table
+Tablet for dad
+Swimming and fitness
+
+---
+## Related
+- [[buy_next]]
+- [[Order Next]]
+- [[Future Trips]]
+
+---
+
+### Output /Shopping /Cars.md
+# Cars
+
+Q7
+Gle
+X5 
+Toureg
+Canyen
+Rover
+Bantayega
+Aston 
+Cullinan
+
+---
+
+### Output /Shopping /Furniture.md
+# To do
+
+Four poster bed 
+Dewan to sit outside in main balcony
+
+---
+
+### Output /Shopping /Get.md
+# Get
+
+Chair 
+Trek booking
+Whoop 
+beater
+Air fryer
+Shower cap 
+Four poster bed 
+
+Investments
+Remove Airtel post paid plan 
+
+Mountain head TV series 
+Succession 
+
+
+
+
+Buy car 
+Vacuum cleaner 
+Robo cleaner
+
+---
+
+### Output /Shopping /Gift.md
+# Gift
+
+1. Personalised note
+2. Pay attention to what they want 
+3. If personal then create, if young new curious things, if professional upskilling 
+4. Give them something they want but will not spend on 
+5. Experience over things -spa etc
+
+---
+## Related
+- [[Want from life]]
+
+---
+
+### Output /Shopping /Order Next.md
+# Order Next
+
+1. Mac 
+2. obsidian
+3. claude
+4. Lounge pants 
+5. coffee machine 
+6. Table 
+7. Chair 
+8. Watch 
+9. shoes
+
+---
+## Related
+- [[Aspire]]
+- [[buy_next]]
+
+---
+
+### Output /Shopping /Shopping list.md
+# Shopping list
+
+1. Beater 
+2. Dishwasher 
+3. Air purifier 
+4. Robo cleaner 
+5. Playstation 
+6. Shower cap
+
+---
+
+### Output /Shopping /buy_next.md
+Bathtub 
+Whoop 
+Cursor 
+Claude
+Coffe machine
+Air purifier 
+Mac
+Air fryer 
+Wakefit comforter
+Robo cleaner
+Certain?
+
+---
+## Related
+- [[Aspire]]
+- [[Order Next]]
+- [[Shopping list]]
+
+---
+
 ### Output /Skilldev/Learn to cook.md
 # Learn to cook
 
@@ -4242,6 +6314,147 @@ Bhurji
 Chai 
 Dal 
 Chawal
+
+---
+
+### Output /ToRead/5 articles.md
+# 5 articles
+
+1. My boy : https://open.substack.com/pub/houseofstrauss/p/my-boy?r=fjznf&utm_medium=ios&shareImageVariant=overlay
+2. a16z : https://www.notboring.co/p/a16z-the-power-brokers?utm_campaign=post&utm_medium=web
+3. Bilateral negotiation in India: https://www.strangeloopcanon.com/p/life-in-india-is-a-series-of-bilateral?utm_campaign=post&utm_medium=web
+4. Bangalore mobility problem: https://youtu.be/FsZKG2TxjCk?si=Oqv55QmUH3eRGZxk
+5. Gift : https://youtu.be/Nda35sFZJGg?si=ZGT12t_LKaZd8Nma
+6. investing beyond US: https://youtu.be/yj2WZtETfXQ?si=HwBA3vWJ1pPUwffF
+7. Tax saving on leasing: https://youtu.be/TI-lpvcD39Q?si=MU17Q_scugC15msO
+
+---
+
+### Output /ToRead/Readwatch.md
+# Read/watch
+
+David oglivy executive director ted talk 
+
+Effective writing 
+https://youtu.be/vtIzMaLkCaM?si=cog4TWpyH7lCQvSj
+
+Hemant Mohapatra
+Omega files
+Indus Valley report
+
+Lenny’s podcast
+https://youtube.com/@LennysPodcast?si=sveQt9iYHVLC40nN
+
+Strachery
+https://stratechery.com/
+
+Paul g
+https://paulgraham.com/articles.html
+
+Pmarca
+Optimist tech manifesto
+
+Huber man 
+https://youtube.com/@hubermanlab?si=hBJgWqDtHbE80eX7
+
+Lex Friedman 
+https://youtube.com/@lexfridman?si=MzIuW-aIEMCRroXn
+
+Indian pivot
+https://open.substack.com/pub/theindianpivot?r=fjznf&utm_medium=ios
+
+Rob Henderson
+
+
+Books
+Reads with Ravi 
+
+
+Philosophy 
+
+Arthur shopenhauer
+1. Councils and maxims
+Osho 
+1. The great challenge 
+Jd Krishnamurthy
+1. Think on these things
+2. Book of life
+Kapil gupta
+Rupert spira
+Anthony dmello
+1. Way to love
+2. Awareness 
+Stephen miller
+1. Bhagwad Gita
+2. Tao te Ching 
+3. The Tao of seneca
+4. Moral letters to licilius
+
+Aristotle
+
+https://www.amazon.com/Aristotles-Nicomachean-Ethics-Aristotle/dp/0226026752?crid=21STT1QNIJ5GC&dib=ey
+
+---
+## Related
+- [[To read weekly]]
+- [[Weekdnlist]]
+- [[Philosophy]]
+- [[Philosophical books]]
+
+---
+
+### Output /ToRead/The Best Essay.md
+# The Best Essay
+
+https://paulgraham.com/best.html
+
+---
+
+### Output /ToRead/Weekend list.md
+# Weekend list
+
+1. Damis podcast
+2. George Mack article about agency 
+3. Ambrish and kunal
+4. FP articles 
+5. Listen to nationally
+
+Onavo - fb
+
+https://haxrob.net/onavo-facebook-ssl-mitm-technical-analysis/
+
+Original pirates
+
+https://youtu.be/joRsWEqfvKE?si=3zF4Gep7_OO9uwoA
+
+Generative ai mit twitter bookmark 
+
+Kapil Gupta and Shreyas Doshi 
+
+LLM 3 blue brown 
+
+Markets by zerodha
+
+https://blog.google/products/search/ai-search-driving-more-queries-higher-quality-clicks/
+
+
+Kanye documentary
+
+---
+
+### Output /Trips/Future Trips.md
+# Future Trips
+
+1. Sri lanka 
+2. Bali 
+3. Vietnam 
+4. Nepal
+5. Bandipur
+
+---
+## Related
+- [[To do short term]]
+- [[Aspire]]
 
 ---
 
@@ -4276,6 +6489,213 @@ Ease of outrage suppressing dissent hence innovation
 - [[Gamification- Quantifiable vs Imp]]
 - [[Perils of intelligence]]
 - [[internet_musings]]
+
+---
+
+### Output /Writing/Prose/Poems.md
+# Poems
+
+All nights when you are asleep
+And I am awake alone
+I miss you 
+Sometimes I just wish you were here 
+So that even if you are asleep
+I could at least look at you
+
+You are my most precious secret 
+And imprint on my soul
+But i do not fret 
+Because you make me whole
+
+some times my actions take a toll
+I know we are not going to fall
+Because we both have role
+You are a saint and I am devil unabsolved
+
+You smell of salvation
+
+Sometimes I miss myself 
+Hidden beneath a veener of mask
+Burdened by the day that society asks
+
+
+Aur kitna soyega deewane
+Maut tujhe Bula Rahi h 
+Tu Zindagi k peeche lga h
+Aur vo Tere peeche aa rhi h
+
+Kabr se dekh Teri dulhan
+Kisi aur ki biwi banne ja rhi h 
+Khushi bhi ho aur dukhi bhi 
+Qki vo dulhan banke Khushi bhi Nazar as rhi h
+
+Kabhi aa to sahi naa Jane k liye
+Kuch pal aur churane k liye
+Thodi si Khushi jtane k liye
+
+Meri hasi pe muskarane k liye
+Mujhe Khana khilane k liye
+Teri hatheliya sehlane k liye
+Ungliya milane k liye
+Aanchal me let Jane k liye
+Mujhe Pyar se sulane k liye
+
+Andhere me let Jane k liye
+Hzaro batein btiyane k liye
+Meri harkato pe chupke muskarane k liye
+Mera chehra chamkane k liye
+
+Pyar se balo ko sehlane k liye
+Mujhe Gale lgane k liye
+Mujhse lipat Jane k liye
+Mere sath kho Jane k liye
+Hotho se hoth milane k liye
+Dudh pine aur pilane k liye
+Nangi peeth par ungli phirane k liye
+Jism ko chu Jane k liye
+Aatma me lean ho Jane k liye
+
+
+Mere par mere liye ansu bhane k liye
+Ab jayegi to shi lekin vapas aane k liye
+
+
+
+Ye sannata aur nakli aahatein
+Pehle jinme ghuli thi chahatein
+
+Mushkilo se Kya darna
+Maut se apni yari h 
+
+
+Thoda darr to Hume bhi tha 
+Qki har taraf unka khauf tha
+Aayi vo Milne baithe hum thoda
+Purjor zahir unka raub tha
+Boli vo ki abhi waqt nhi hua tumhara
+Nhi to le Jane se mujhe kaun rokta
+Jhoot q bolegi  vo bhala
+Jab naam hi uska maut tha
+
+Bikau to yha sabka zameer h
+Fark nhi padta garib h ya ameer h
+Kimat ka faisla karti takdeer h
+
+
+
+
+Ek raat vo gyi thi jahaan baat rok ke
+Ab tak vhi ruka hui h raat rok ke
+
+
+Raatein aajkal zingai se lambi lag rahi h 
+Maut zinda h aur zindagi mar rahi h 
+Ji rhe h ek ek din ya bs maut tal rhi h 
+Doobe h in sawalon me jinka hal nhi h 
+
+Aur chahte h karna mehnat par bal nhi h 
+Qki Karm karte ja rahe par fal nhi h
+Shayda fal ki surat saral nhi h 
+Kuch rukke samjha ki ye fal bhi shi h
+
+
+When you snuggle in the blanket of sorrow
+Death is your sleep
+It's a ground fertilized with failures
+No inkling how deep
+You think depressed are those who weep
+But it's represed and needs a long sleep
+Aided by shadows where light can't peep
+Cry for help but the voice is meek
+Then comes the end, smell of death reeks
+
+
+ 
+Life is the allowance of death
+Night before the bed
+Work before the rest
+Broken before castrate
+Touch before the taste
+Passion before the chaste
+Bullet before the vest
+Chaos before the nest
+Reasonable before the best
+Preperation before the test
+
+Tera jism ek aag hai
+Jal bhi rha hu aur chak bhi Raha hu 
+
+Transcended in time scattered among nothingness
+All the life among the silence
+Sitting in an aquarium with complete stillness
+This is the play of light and darkness
+
+
+False sense of security in a the vicinity of death
+Torrent of butterflies setting the stomach ablaze
+But power of normalization deems it safe
+To navigate the depth and earn a taste
+
+What will be the taste of death if one could taste it
+Is it sweet sour , salty or like a breewed bear bittersweet
+A palate of the personality or musk of the soul deep where it sits
+Or an assortment different for each piece
+But pieces of  personality or soul that is the tease
+
+My pen bleeds pain again and again 
+There is only rain, all hopes in vain 
+But you still do what you can 
+To keep yourself sane as a man 
+Try to gain respect or atleast fame 
+By playing the game of life again and again
+
+---
+## Related
+- [[Prose]]
+- [[Quotes]]
+- [[tu]]
+
+---
+
+### Output /Writing/Prose/Prose.md
+# Prose
+
+It's almost a physical ache that it will be difficult to find somebody who has an inkling of the ludicrous but rational thoughts racing through your mind and the one who would be able to continue the conversation with  a substance-full view about the hypothesis
+
+I think that the problem.with me is that the people with whom i can really form a  meaningful bond are the ones who i think are as good  as me and that is in the direct contradiction with my delusions of being the best , hence the relationshiop has to exist in a limbo of constant contradiction
+
+It's night; dark, serene and cold as death which explodes into cacophony of life and chaos when they rain hellfire. You have never felt more alive than at that moment
+
+Society is a mechanism design to subdue your uncivilized urges hence restraining the creation of Darwin's true version of the most efficient species
+
+The vastness of the ocean evokes an unsatiable emptiness inside me
+
+---
+## Related
+- [[Poems]]
+- [[Quotes]]
+
+---
+
+### Output /Writing/Prose/tu.md
+Tu thi mujhme ya tu hi sab kuch thi 
+Maine apna kuch khoya tha jo tujhme paya tha 
+Jab tujhko khoya to vo kabhi vapis nahi aay
+
+---
+## Related
+- [[Poems]]
+- [[Prose]]
+
+---
+
+### Output /Writing/Prose/your_smile.md
+The smile that touches me, burns me, engulfs me. It’s the reflection of the happy part of my souls, the pure one. That smile is the definition of true, whatever is the right with the world. It is the only reason that world should exist. Conserve it, cherish it, safeguard it all cost.
+
+---
+## Related
+- [[Poems]]
+- [[Prose]]
 
 ---
 
@@ -4325,6 +6745,7 @@ Start ups just lose money
 37. How do you solve for mobile addiction ?
 38. Why do we like novelty
 39. Why do founders have love marriage ?
+40. Why do countries exist
 
 Learn
 1. Psychology 
@@ -4644,10 +7065,10 @@ Curiosity wheel
 
 ### Output /idea/8th March.md
 # Target Areas 
-- [ ] Need one idea each in MSME, B2C & Personal 
+- [x] Need one idea each in MSME, B2C & Personal 
 - [x] Explore Compare app and change the framing of comparison app 
 - [ ] Expand UPSC idea to build a generic layer of weakness analyses 
-- [ ] Own - trading based on recent news - explore tijori app, telegram channels and Reddit 
+- [x] Own - trading based on recent news - explore tijori app, telegram channels and Reddit 
 - [ ] Inspiration 
 	- [ ] Twitter bookmark
 	- [ ] Meesho like wedge 
@@ -4663,7 +7084,7 @@ Curiosity wheel
 	- [ ] Selling online 
 		- [ ] WHich category to sell 
 		- [ ] Learninigs from there to build some solution in MSME space 
-- [ ] Think of ideas which are acquirable at least  in double digit crores
+- [x] Think of ideas which are acquirable at least  in double digit crores
 
 # Apply for rumik and fermi
 # Long term Projects 
@@ -4813,6 +7234,44 @@ So should balance for difficulty, investment, value, time and solution.
 - [[For idea to be successful]]
 - [[Startups]]
 - [[input_idea]]
+
+---
+
+### Output /idea/Personal assistant.md
+1. Context = obsidian 
+2. Task 
+3. Aspirations 
+4. Tracking 
+5. Auto completion of tasks 
+6. Relationship management - call scheduling, summary into notes 
+7. Reading/ watching commuted to notes via activity agrreagtor - bookmarks etc 
+8. Same to generate a to do list 
+9. Ultimately reaching to managing time 
+10. Movie and books suggestion 
+11. Journaling 
+12. Physical suggestion 
+13. Personal inherent - turned to assistant 
+14. Assistant is the mode 
+
+Dimensions 
+- aspirations 
+- Consumption 
+- Action 
+- Task 
+- Ultimately time management 
+
+Who you are 
+What you want to be 
+How can you get there in a fun way 
+
+Maybe the personal assistant, we need to start with a veg something which makes it different from ChatGPT. Maybe having a personalised word as a resume is that we will obviously have what can go and what cannot how will people train it so it doesn’t New their chance of getting higher this can be another project. I think this project will encompass everything. The personal Internet et cetera will ultimately how do I spend my time so that it makes it fun, and how do I not worry about the mechanical things? How do I automate it? I will have to think about this on weekend. 
+
+The veg can also bestopping the social media scrolling, getting the time back to do great physical things. Also, suggestion of great movies or books, which keep you hooked. Also think that whatever you are consuming in shorts like the movie scenes, the TV series scenes, if you actually watch it, you will stop consuming it for fun
+
+Boys atomic level so that the suggestions are personalised and also help him achieve the expired tour assistant. Please nothing but understand that person it’s such a deep level that it will always help them become the best version of themselves. It will always have them have a great fun, great Entertainment and recognise automate whatever the boring tasks are.
+That’s why obsidian integration is also very important
+
+[[Ideas]]
 
 ---
 
@@ -5105,6 +7564,66 @@ Tree selection should be based on novelty and breadth
 
 ---
 
+### Output /idea/job/Pm interview model.md
+Sources
+1. Literature - svpg, reforge
+2. Structure: my notes and Dianna you, exponent etc, reaseaech more for channels on YouTube , gmail pm notes
+3. People: twitter and YouTube Shreyas, George
+4. Current - strachery, et, benedict evans, gmail newsletter, ken 
+5. Company interview style and rounds - refer from questions , blogs etc, blind, glasdoor 
+6. Questions - notes , pm exercises 
+
+Taxonomy and knowledge graph, how skill varies based on designation for each taxonomy ( this is the real IP)
+What are we testing my notes?
+
+Personalisation based on user(resume), target job (JD) and position (only upto SPM )
+
+
+B2b 
+How test candidate UX tatste and ai proficienncy for 
+
+Macro : PMS are blockers 
+
+
+Product question + behavioural questions 
+User uses more , is prepared for all , weakness map gets improved, our understanding improves personalisation improves, and the final bot is created 
+
+
+The final bot will drive monetisation because less uses 
+1. Does not get weakness map 
+2. Does not get company readiness score and round readiness score 
+3. Does not get bot
+4. Less chance of companies reaching out , we can have usage streak which if fulfilled user will be contacted by companies and the streak will be decode my in usage and usage is restricted for free version, this improving monetisation 
+
+
+ Companies get a detailed report with score, they can use same infra of interview for further pre screening 
+ 
+The huamn mentors als get detailed report 
+
+Product is simple 
+You are paying to earn more 
+The more you use the higher the chance of earning more 
+But in order to use more, you have to pay 
+
+Scientifically improve product acumen 
+Then connect the companies with the right talent 
+
+For companies 
+- higher the perfect talent at the cheapest price 
+
+Better talent (return) than what you hirewith lesser effort (cot)
+
+But how to define topic, subtopic, their knowledge graph and how to evaluate- that is the true IP 
+
+Personalisation, persistence of performance and fitment matching is just table stakes 
+
+Starting point is checking the fitment, helping with getting an interview is afoot in the door
+
+
+What is the innovation such that we build it in a way that it does not require LLM calls every instance hence does not become costly
+
+---
+
 ### Output /idea/personal_internet/Idea 1 (2).md
 # Idea 1
 
@@ -5162,6 +7681,309 @@ Too much misinformation
 - [[Idea 1 (2)]]
 - [[alternatebrain]]
 - [[Perils of social media]]
+
+---
+
+### Output /todo/16th-20th March.md
+Obsidian 
+Garry tan setup 
+Lenny’s newsletter data
+Openclaw for PM linkedin
+Persona project - out of reach jobs 
+Upsc
+AI company - paper clip 
+Claude dispatch 
+Atoms/ travis kalanick 
+What isnpolymarket
+Pokymarket video 
+Balaji prediction to buy stocks
+Karapth skills
+How can you be on India rupee falling due to war
+Where can you invest if stock market is going to go down 
+Ray Dalio investing
+The intimate process of getting rich 
+
+Build a tool to save for weekend work 
+Name , link 
+Intimate way of making money - twitter 
+
+Language application 
+Shashank Razorpay VC application 
+
+
+What is the weakest component of this strategy 
+5 assumption which can fail in the PRD 
+
+agent to fetch tickets daily and understand the issues , point out any abnormal spikes
+Combine freshdesk data , greylabs, deflection, evaluation and csat
+
+Apply for localhost founder program 
+Executive assistant from Claude - kavin hinge
+
+Petrodollar twitter article
+
+1. Mars VC application 
+2. Mircorsoft jobs cv
+
+Claude channels
+Business on insta through ai post - 5 article recommendation 
+Travel influencer - 
+
+Contrary things - thirst trap + travel/ stock / real estate 
+
+
+
+Anytime you get bored and pickup phone you have something positive to do something active which you have saved amor we discovered based on what you have saved
+
+---
+
+### Output /todo/23-27th march.md
+1. Twitte
+2. Ray dalio all weather portfolio 
+3. Article on dhutandhar
+4. Dispatch clause
+5. Poly market strategy 
+6. History of Mumbai 
+7. YC event in April 
+8. Free streaming on tv
+9. Two path for software
+10.  Clause guide for PM
+11. Ritesh Bangla I travel podcast
+12. The first multipolar war
+13. Sarvam application look at Manis account
+14. Places to see before you die
+15. Dispatch 
+16. Write in Figma 
+17. Claude auto mode
+18. Schedule 
+19. Channel 
+20. Assistant - link saving 
+21. Product research not testing a model 
+22. Obsidian 
+23. Polymarket
+24. Print money plugin and upwork freelance, what’s trending on YouTube, twitter connected to an ai insta influencer idea - again not selling 
+25. At least make saving link plugin which can be a reader 
+26. Janusen mind
+27. Turbo wuant
+
+Save link 
+Give it importance 
+If important a time is asked to be schedules
+Add summary
+Group by theme or sub theme is 
+
+
+Turn the current bot with a layer for different job 
+Turn the current bot in product brainstorming bot by using content from Lenny, YouTube and Deepak , daily adds newsletters for latest ideas and updates, my saved links, updated competitor research and tech blogs, macros 
+Basically all the points in the Dianna you vide o used as structure and get the date from your trusted resources to fill it
+Product management questions too 
+
+
+Amazon and ugc content
+Influencers which reads what’s viral on insta, reditt and twitter and build content along with a central identity of traveller and philosopher 
+
+
+How run models locally 
+Transcribing using open source models insanely fast whisper
+
+
+
+Build a bot where you describe idea and it starts building right away in terminal
+
+Finance 
+Al - Claude release, models
+Make money - bots, social media 
+Living life philosophy 
+
+
+Irony slow driving us reckless
+Trey knowledge as transitory , don’t appreciate experience can be value only if disruptive 
+Balance = average life 
+
+Bernstein report on investing 
+Accelerando paper siddh ponam
+
+Y combinator free credit
+
+
+Bescom changes
+
+Money printing repo 
+
+MSME twiiter
+
+Razorpay scratch my itch 
+
+Money management 
+
+Seedancr
+
+---
+
+### Output /todo/To do long term.md
+# To do long term
+
+Shooting - golden ace
+Surfing - mantra vs aquatic indica 
+Cooking 
+Swimming https://www.perplexity.ai/search/6619fdfa-fc17-4976-90c0-1eeab714c3f3
+Driving -maruti
+
+---
+## Related
+- [[Skills&Sports]]
+- [[2026]]
+- [[Aim]]
+
+---
+
+### Output /todo/To do short term.md
+# To do short term
+
+Theory of curiisity 
+2. Our trip plan 
+4. Their trip plan 
+5. Insurance and cashless
+
+---
+## Related
+- [[theorry_of_curiosity]]
+- [[Future Trips]]
+
+---
+
+### Output /todo/To do.md
+# To do
+
+Build strategy using Ken’s articles
+
+Explore the Claude conversation 
+View bookmarks on Claude code 
+Deploy an app end to end including auth and payments - Claude deployemnet
+Dario interview in bookmarks
+Openclaw
+
+https://x.com/steipete for writing the right . ms file
+
+Creator of openclaw
+
+---
+## Related
+- [[alternatebrain]]
+- [[AI _tools]]
+- [[Learn]]
+
+---
+
+### Output /todo/To read weekly.md
+# To read weekly
+
+Benedict Evans
+Strachery 
+Rob henderson
+Paul graham
+Nohaopinion
+Kpaxas
+Gurvinder
+
+1. Psychology- newsletter
+2. Philosophy- newsletter
+3. Tech news -Bloomberg, benedict Evan’s, wireD
+4. Business news -ET
+5. Tech articles- Bloomberg, benedict Evan’s, wired, strachery
+6. Politics - Indian express
+7. Product-  newsletters 
+8. Investment - Shankar nadh, et money, prime investor
+
+Ken and finshots
+Paul graham
+Kpaxas
+
+---
+## Related
+- [[Readwatch]]
+- [[Weekdnlist]]
+- [[Weekend tasklist]]
+- [[Philosophy]]
+- [[Philosophical books]]
+
+---
+
+### Output /todo/Weekdnlist.md
+# Weekdnlist
+
+Rob henderson
+Strachery 
+Sposky Stanford video 
+Pawel/akash Gupta / product newsltte
+UX
+1 episode
+Kapil Gupta 
+Noam Chomsky 
+Vsauce
+YouTube video on business (like Mukesh Bansal and Kunal Shah)
+1 book
+Practice question 
+Think about startup idea
+Read Indian express
+Et
+Finshots
+Lenny 
+Ashwath 
+Investment article - sasta niveshak, prime investor , et money video,  purana et money wala jisne naya channel khola hai 
+
+Video earmarked for the week 
+Theory of relativity 
+Hubermab
+Wired long reads
+
+---
+## Related
+- [[To read weekly]]
+- [[Weekend tasklist]]
+- [[Readwatch]]
+
+---
+
+### Output /todo/Weekend tasklist.md
+# Weekend tasklist
+
+- [ ] 2 by 2 of Meesho
+- [ ] Meesho DHRP
+- [ ] BERNSTEIN REPORT
+- [ ] vibe code
+- [ ] Lenny
+- [ ] Kapil Gupta
+- [ ] book
+- [ ] video
+- [ ] Rob henderson
+- [ ] video
+- [ ] leading edge
+- [ ] New topic- LLM
+- [ ] Reading list
+- [ ] Shreyas doshi newsletter
+- [x] strachery
+
+---
+## Related
+- [[Weekdnlist]]
+- [[To read weekly]]
+- [[Why Meesho works]]
+
+---
+
+### Output /todo/over&above.md
+What I am going to do over and above in 
+1. Office - CX and advocate for the solve
+2. Physically - 3-12-30 
+3. Mentally - meditation session 
+4. Personal work- start work on bookmark app
+
+---
+## Related
+- [[habit2]]
+- [[CX]]
+- [[Investment]]
 
 ---
 
@@ -6455,6 +9277,260 @@ Ditch experience if it does not serve hypothesis validation.
 ## Related
 - [[PM/Thoughts/Product|Product]]
 - [[PM/product/Product strategy|Product Strategy (How-to)]]
+- [[Edge]]
+
+---
+
+### Personal/House design ideas.md
+# House design ideas
+
+Courtyard
+Exposed brick
+Natural light
+Common area /family area
+Entertainment room /library
+Bar
+Open kitchen and Island counter 
+Jaali
+
+---
+
+### Personal/Video games.md
+# Video games
+
+The last of us 
+Halo 
+God of war
+World of Warcraft
+Witcher
+Overwatch 
+Fortnite
+Dota 2 
+SimCity 
+Assasin creed 
+Mortal Kombat
+
+---
+
+### Work/Behaviour/Executive presence.md
+# Executive presence
+
+Don’t crib outside your defined circle 
+- need to seriously improve
+Give precise answer which respects others time, i.e. less words with less speed
+- above avg
+Don’t speak in between 
+- avg 
+Don’t speak emotionally 
+- avg 
+Be confident 
+- above avg
+Don’t attach your self to work- 
+Great-time management
+
+---
+## Related
+- [[Professional life]]
+- [[Manager]]
+- [[Managing the manager]]
+- [[aim&predate_behaviour]]
+- [[presona_behaviour]]
+
+---
+
+### Work/Behaviour/Leverage.md
+1. Decide whether to worry about something, imeediate vs important 
+2. Avoid meetings and grunt work and drop ball on them 
+3. Maintain running document of all the work you have done in the week, block Friday after eows to update it, plan for next week high leverage task, block time in your calendar and check what you did not complete from last week and why 
+4. Don’t over polish 
+5. Claude code to send an automatic mail with bot data, fresh desk and grey lab data (takes care of the optics too)
+6. Don’t chill, don’t do time pass work ruthlessly
+
+---
+
+### Work/Behaviour/Manager.md
+Make your manager’s/ skip life easier without sacrificing on user needs
+Communicate proactively. Send detailed updates
+Speak out if you feel something is wrong
+
+---
+## Related
+- [[Professional life]]
+- [[Managing the manager]]
+
+---
+
+### Work/Behaviour/Managing the manager.md
+# Managing the manager
+
+Figure out what’s causing them stress
+Align on what we are working as a team and what is his expectation from you 
+Take way the stress - show agency 
+Communicate well and precisely (ETAs solution etc)
+If they are frantic be calm 
+Show agency 
+
+
+Own product - what does it mean ?
+Be clam - why do you get angry?
+Don’t joke - why do you need to be funny?
+Don’t be sarcastic- what do you get out of it?
+Alignment - how to align?
+Jealous- why are you jealous of other high performers?
+
+---
+## Related
+- [[Manager]]
+- [[Professional life]]
+- [[Executive presence]]
+
+---
+
+### Work/Behaviour/Professional life.md
+# Professional life
+
+1. Executive presence
+Don’t joke, don’t crib, don’t gossip with everyone
+Don’t give unsolicited advice
+Speak slowly, precisely with out undercutting
+Don’t speak in meeting where you don’t need to create impression,l rather work on your own thing
+If somebody is trying to offend or pushback aggressively take a 2 second pause before speaking, turn off the emotional response and talk to the argument being discussed
+
+2. Enjoy 
+Have fun, joke around, gossip and crib with people you trust 
+Even then do 1:1 
+Speak softly so other could not hear 
+Do not go to Sanket area talk loudly 
+
+People you can have fun with
+1. Ankit
+2. Ritesh 
+3. Manu 
+4. Kushal 
+5. Sanket
+6. Vinit 
+7. Kundan 
+8. Shubham
+
+People you can crib/ gossip with 
+1. Manu 
+2. Shubham
+3. Ritesh
+4. Kundan
+
+People you can be sarcastic with
+Everybody with whom you can have fun except vinit
+
+So default mode is to be calm except wit people mentioned above 
+
+If you are in executive mode all the time you will not develop relationship so constantly identify people, you can trust so that you can be real with them and develop a genuine relationshipl
+
+With regards to your Manager always aim to make their life simpler unless it does not compromise with quality of your work. This will result in any way a great relationship where they will be your biggest champion because you are doing what you are hired to do.
+
+---
+## Related
+- [[Manager]]
+- [[Managing the manager]]
+- [[Executive presence]]
+- [[People]]
+
+---
+
+### Work/Scapia/Build with AI.md
+Use pdf to extract data 
+Scrap travclan - given ticket data fetch the itinerary with live prices 
+Build the ticket platform 
+Classifier 
+Dashboard
+
+---
+
+### Work/Scapia/CX + trips.md
+# CX + trips
+
+1. Deep into recent - analyse transcript, talk to individual PM 
+2. Contextual - deterministic contextual, contextual in LLM 
+3. Classificaiton 
+4. Email Workflow
+5. How dooes l2 work
+
+Build and understanding of Scapia select 
+
+Tactical 
+CRM led mvp 
+How will you define what you want to measure to build select
+
+---
+## Related
+- [[CX]]
+- [[Holiday research]]
+
+---
+
+### Work/Scapia/CX.md
+# CX
+
+Recent activity 
+1. Lounge - eligibility, eligibility date, lounge name, priviliges shop 
+2. Referral - check question 
+Define common action for each activity 
+As well as visibility rules 
+Making your l0 page dterminstixally contextual 
+
+You have to answer following question 
+1. How far away travel do they call for past and upcoming 
+2. Same for lounge 
+bike
+The deterministic context 
+When to show - use data in the call as well as the tables
+What action to provide 
+
+Then define capability for platform with  examples for each activity 
+Use the above uses cases to define capability 
+Build it through retool by defining user experience
+
+---
+## Related
+- [[CX + trips]]
+- [[Holiday research]]
+
+---
+
+### Work/Scapia/Holiday research.md
+# Holiday research
+
+Arial.ai 
+Mindtrip
+
+---
+## Related
+- [[CX]]
+- [[CX + trips]]
+
+---
+
+### Work/Scapia/People.md
+Gain knowledge 
+Be fast - repo and clear communication 
+Deliver value
+Understand who matters and power dynamics
+
+Identify wizards 
+1. Mani 
+2. Arindam 
+3. Sourabh 
+4. Skg
+5. Apurv 
+6. Durgesh
+Get close to them and make them want to work with me 
+
+Do your job well, fast and a lot 
+Build relationship and trust with wizards 
+Trade it for things you to work , space and agency
+
+---
+## Related
+- [[Professional life]]
 - [[Edge]]
 
 ---

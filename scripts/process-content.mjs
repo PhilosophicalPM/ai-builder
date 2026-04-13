@@ -174,7 +174,7 @@ ${tweetSection}
 `.trim();
 
 // Write output
-const outputPath = path.join(VC_ROOT, "app/src/lib/knowledge-base.txt");
+const outputPath = path.join(VC_ROOT, "app-ai-builder/src/lib/knowledge-base.txt");
 fs.writeFileSync(outputPath, knowledgeBase);
 
 const charCount = knowledgeBase.length;
