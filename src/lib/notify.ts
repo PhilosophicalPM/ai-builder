@@ -12,8 +12,8 @@ export async function notifyTokensExhausted(
   failedModels: string[],
   userQuestion: string
 ) {
-  const message = `Neural Map Alert: All models exhausted.\nModels tried: ${failedModels.join(", ")}\nUser question: "${userQuestion.slice(0, 100)}"`;
-  await sendAlert("Neural Map: All models exhausted", message);
+  const message = `AI Builder Alert: All models exhausted.\nModels tried: ${failedModels.join(", ")}\nUser question: "${userQuestion.slice(0, 100)}"`;
+  await sendAlert("AI Builder: All models exhausted", message);
 }
 
 export async function notifyNewVisitor(
@@ -21,8 +21,8 @@ export async function notifyNewVisitor(
   question: string
 ) {
   const timestamp = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
-  const message = `New visitor on Neural Map!\n\nTime: ${timestamp}\nIP: ${ip}\nFirst question: "${question.slice(0, 200)}"`;
-  await sendAlert("Neural Map: New visitor chatting", message);
+  const message = `New visitor on AI Builder!\n\nTime: ${timestamp}\nIP: ${ip}\nFirst question: "${question.slice(0, 200)}"`;
+  await sendAlert("AI Builder: New visitor chatting", message);
 }
 
 export async function sendTrackingEmail(
@@ -34,12 +34,12 @@ export async function sendTrackingEmail(
 ) {
   if (!resend || !ALERT_EMAIL) return;
 
-  const subject = `Neural Map [${type}]: ${question.slice(0, 60)}`;
+  const subject = `AI Builder [${type}]: ${question.slice(0, 60)}`;
   const text = `Time: ${timestamp}\nIP: ${ip}\nType: ${type}\n\nQuestion:\n${question}\n\nResponse:\n${answer?.slice(0, 1000) || "(no response)"}`;
 
   try {
     await resend.emails.send({
-      from: "Neural Map <onboarding@resend.dev>",
+      from: "AI Builder <onboarding@resend.dev>",
       to: ALERT_EMAIL,
       subject,
       text,
@@ -67,7 +67,7 @@ async function sendAlert(subject: string, message: string) {
   if (resend && ALERT_EMAIL) {
     try {
       await resend.emails.send({
-        from: "Neural Map <onboarding@resend.dev>",
+        from: "AI Builder <onboarding@resend.dev>",
         to: ALERT_EMAIL,
         subject,
         text: message,
