@@ -108,10 +108,10 @@ Chain: Gemma 4 26B MoE (OpenRouter free tier) → Gemini flash-latest → 2.5 Fl
 5. **Rate limits and tracking:**
 30 requests per hour per IP, 50 messages per session. Every interaction emails me via Resend. I know when you are reading this.`,
 
-  "Which Razorpay workflow would you rebuild with AI and how?": `**Pick one workflow, rebuild it end-to-end with agents plus a self-sustaining eval loop, ship in a week, then replay the pattern across the org. Obvious first target: merchant support.**
+  "Which Razorpay workflow would you rebuild with AI and how?": `**Pick one workflow, rebuild it end-to-end with agents plus a self-sustaining eval loop, ship in a week, then replay the pattern across the org. I would target Merchant support.**
 
 1. **The workflow — merchant support Tier 1:**
-Highest-volume, most pattern-rich, most labour-intensive surface Razorpay has. Every query today runs through humans plus stale knowledge base entries. Exactly the shape of the Scapia eval bot I already ship in production.
+Highest-volume, most pattern-rich, most labour-intensive surface Razorpay has. Every query today runs through humans plus stale knowledge base entries.
 
 2. **The AI redesign:**
 Primary agent triages the incoming query, routes it to the right KB, resolves 70–80% at first touch. Eval bot analyses both the primary agent's responses and the phone/chat conversations where it failed, identifies gaps, and auto-updates the KB — closing the loop without human intervention. Low-confidence queries escalate to humans with full context pre-loaded. Stack: Claude API + direct DB access to merchant state + Razorpay's existing KB as the retrieval source.
