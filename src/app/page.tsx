@@ -125,16 +125,16 @@ Day 1–2 pull ticket logs and current KB, build the classifier. Day 3–4 ship 
 5. **Why this is the right first target:**
 It is the shape I know best (Scapia eval bot), highest volume at Razorpay, and the pattern is reusable. Once it works on support, I replay it on dispute resolution, KYC review, merchant activation, risk triage. Ship once, earn replay rights across the org.`,
 
-  "Why do you want to join Harshil's AI Hackers team at Razorpay?": `**Opus 4.6 turned AI into real leverage for first-principle thinkers. Attention-economy businesses die, trust-monetised ones survive, and PMs with ideas should stop waiting and start shipping. I already am.**
+  "Why do you want to join Harshil's AI Hackers team at Razorpay?": `**Opus 4.6 turned AI into real leverage for first-principle thinkers. Attention-economy businesses die, trust-monetised ones survive, and the implementation bandwidth that used to cap PMs with ideas is gone. I'm already shipping that way.**
 
 1. **Disruption is systemic:**
-Agents have no habits, no attention, no susceptibility to cross-sell. Discovery, search, ranking, recommendation — the GMV engines of the aggregator era — go away. Winners are trust-monetised: payments, logistics, reputation. Systems thinking wins, not the biggest model.
+Agents have no habits, no attention, no susceptibility to cross-sell. Discovery, search, ranking, recommendation — the GMV engines of the aggregator era — become much less effective. Winners are trust-monetised: payments, logistics, reputation. And raw model capability is commoditising fast — the durable edge shifts to systems thinking: composing AI with data, feedback loops, and business constraints into workflows that actually close.
 
 2. **Already executing:**
 Scapia eval bot (70% deflection, self-sustaining KB loop). Automated lead management + itinerary generation in progress. This AI Builder bot. Multiple personal full-stack builds in parallel — Claude Code is my default mode, not my side mode.
 
 3. **Razorpay is structurally right:**
-Payments monetise trust, not attention — they survive the disruption. Rails are public utility (NPCI), so the leverage lives in rebuilding workflows on top. Harshil's "org structure is the constraint, not people" is the clearest articulation of build-over-manage I've seen from an Indian operator.
+Payments monetise trust, not attention — they survive the disruption. Rails are public utility (NPCI), so the leverage lives in rebuilding workflows on top. And the team's no-hierarchy, ship-directly setup matches how I actually want to work — building without being slowed by designations or reporting layers.
 
 TLDR — builders win, trust survives, I'm shipping on this thesis today.`,
 };
