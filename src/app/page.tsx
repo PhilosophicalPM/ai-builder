@@ -74,10 +74,10 @@ A platform that instruments WhatsApp first contact with leads, suggests follow-u
 3. **This bot (AI Builder):**
 Built with Claude Code, running on Gemma 4 (Apache 2.0, released two weeks ago) with Gemini as fallback, on Next.js + Vercel. 73K-token knowledge base, streaming interface, full chat history. The post said "send me what you've built with AI" — this bot is that submission.`,
 
-  "What tools and technologies do you use in your AI work?": `**Production-grade, not wrapper-grade. I pick tools that ship, not the ones with the best docs.**
+  "What tools and technologies do you use in your AI work?": `**Here's the stack I use day to day, picked for what holds up in production.**
 
 1. **Prod inference — Gemma 4 first, Gemini carries production:**
-Gemma 4 26B MoE (Apache 2.0, 256K context, 3.8B active params, released two weeks ago) attempted first via OpenRouter's free tier. When OpenRouter's shared upstream pool is saturated — which is usually the case on a 92K-token context call — the chain falls through to Gemini flash-latest on Google AI Studio, which handles the full context comfortably. Gemma moves to primary with OpenRouter credits or Vertex AI billing. Two providers, one fetch-based dispatcher, zero SDK lock-in.
+Gemma 4 26B MoE (Apache 2.0, 256K context, 3.8B active params, released two weeks ago) attempted first via OpenRouter's free tier. When OpenRouter's shared upstream pool is saturated, the chain falls through to Gemini flash-latest on Google AI Studio, which handles the full context comfortably. Gemma moves to primary with OpenRouter credits or Vertex AI billing. Two providers, one fetch-based dispatcher, zero SDK lock-in.
 
 2. **Agents and dev — Claude Code + Claude Projects:**
 Claude Code is my daily driver — full-stack development, data analysis, rapid prototyping, competitive research. Claude Projects loaded with PRD structure for PRD automation and customer support context for the Scapia bot.
