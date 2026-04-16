@@ -82,13 +82,16 @@ Gemma 4 26B MoE (Apache 2.0, 256K context, 3.8B active params, released two week
 2. **Agents and dev — Claude Code + Claude Projects:**
 Claude Code is my daily driver — full-stack development, data analysis, rapid prototyping, competitive research. Claude Projects loaded with PRD structure for PRD automation and customer support context for the Scapia bot.
 
-3. **Infrastructure — Next.js + Vercel + Resend + Stitch:**
-Direct API calls, no LangChain or LlamaIndex. YAGNI. Rate limiting in-memory, streaming via Server-Sent Events, Resend for transactional alerts, Stitch for UI design.
+3. **Design (Stitch):**
+UI design and component styling via Stitch. Dark mode, glass effects, streaming animations, responsive layout, all designed through Stitch prompts rather than manual CSS iteration.
 
-4. **Evals — custom harness:**
+4. **Infrastructure — Next.js + Vercel + Resend:**
+Direct API calls, no LangChain or LlamaIndex. YAGNI. Rate limiting in-memory, streaming via Server-Sent Events, Resend for transactional alerts.
+
+5. **Evals — custom harness:**
 The Scapia eval bot uses a custom evaluation harness I built, not a framework. Read the phone conversations and bot responses, score them, identify gap patterns, feed them back into KB updates.
 
-5. **Observability — DIY:**
+6. **Observability — DIY:**
 Vercel logs + Resend webhooks + interaction tracking emails. I know when someone is reading this bot in real time.`,
 
   "How did you build this bot?": `**The bot you're using is the answer to "send me what you've built with AI". Here's the architecture in two minutes.**
