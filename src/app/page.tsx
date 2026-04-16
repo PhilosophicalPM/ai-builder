@@ -82,8 +82,8 @@ Gemma 4 26B MoE (Apache 2.0, 256K context, 3.8B active params, released two week
 2. **Agents and dev — Claude Code + Claude Projects:**
 Claude Code is my daily driver — full-stack development, data analysis, rapid prototyping, competitive research. Claude Projects loaded with PRD structure for PRD automation and customer support context for the Scapia bot.
 
-3. **Infrastructure — Next.js + Vercel + Resend:**
-Direct API calls, no LangChain or LlamaIndex. YAGNI. Rate limiting in-memory, streaming via Server-Sent Events, Resend for transactional alerts.
+3. **Infrastructure — Next.js + Vercel + Resend + Stitch:**
+Direct API calls, no LangChain or LlamaIndex. YAGNI. Rate limiting in-memory, streaming via Server-Sent Events, Resend for transactional alerts, Stitch for UI design.
 
 4. **Evals — custom harness:**
 The Scapia eval bot uses a custom evaluation harness I built, not a framework. Read the phone conversations and bot responses, score them, identify gap patterns, feed them back into KB updates.
