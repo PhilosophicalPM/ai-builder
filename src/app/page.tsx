@@ -94,15 +94,15 @@ Vercel logs + Resend webhooks + interaction tracking emails. I know when someone
   "How did you build this bot?": `**The bot you're using is the answer to "send me what you've built with AI". Here's the architecture in two minutes.**
 
 1. **Knowledge base (~73K tokens):**
-Personal notes (Obsidian), Substack articles, Investment Thesis, Theory of Curiosity, tweets, resume — all processed by a script into a single text file, then injected into the system prompt on every LLM call. No RAG, no vector DB. Simpler than it sounds and it works.
+Personal notes (Obsidian), Substack articles, Investment Thesis, Theory of Curiosity, tweets, resume, all processed by a script into a single text file, then injected into the system prompt on every LLM call. No RAG, no vector DB. Simpler than it sounds and it works.
 
-2. **System prompt — curated answers + format enforcement + guardrails:**
+2. **System prompt (curated answers + format enforcement + guardrails):**
 Not a free-for-all wrapper. The prompt carries the persona, the response format (crux + bullets with bold headings), hard-coded curated answers for high-signal questions, and safety guardrails against prompt injection, abuse, and off-topic drift.
 
 3. **Canned and free-form split:**
-Five pre-written answers for the pills — deterministic, reviewed, streamed character-by-character for feel. Everything else hits the LLM API. The pitch is never left to chance, but the conversation stays open-ended.
+Five pre-written answers for the pills (deterministic, reviewed, streamed character-by-character for feel). Everything else hits the LLM API. The pitch is never left to chance, but the conversation stays open-ended.
 
-4. **Model fallback chain — Gemma 4 → Gemini:**
+4. **Model fallback chain (Gemma 4 → Gemini):**
 Chain: Gemma 4 26B MoE (OpenRouter free tier) → Gemini flash-latest → 2.5 Flash → pro-latest → 2.5 Flash Lite. If any model hits a rate limit, 503, or 404 for deprecated IDs, the next one picks up automatically.
 
 5. **Rate limits and tracking:**
