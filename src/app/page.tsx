@@ -63,16 +63,16 @@ const CONTACT = {
 };
 
 const CANNED_ANSWERS: Record<string, string> = {
-  "Tell me about the cool AI projects you have worked on.": `**Three AI projects I've shipped or am shipping — all in production, all solving real problems, not demos.**
+  "Tell me about the cool AI projects you have worked on.": `**Three AI projects I've shipped or am shipping, all in production, all solving real problems, not demos.**
 
 1. **Bot evaluating another bot (Scapia):**
-We run an LLM customer support bot that handles XX thousand queries per month, solves 70% of them with a 42% CSAT. We built an eval bot on top of it — a second LLM that reads both the primary bot's responses and the phone conversations where the bot failed, identifies the gaps, and updates the knowledge base automatically. A self-sustaining improvement loop. The bot gets better every week without a PM in the loop.
+We run an LLM customer support bot that handles XX thousand queries per month, solves 70% of them with a 42% CSAT. We built an eval bot on top of it, a second LLM that reads both the primary bot's responses and the phone conversations where the bot failed, identifies the gaps, and updates the knowledge base automatically. A self-sustaining improvement loop. The bot gets better every week without a PM in the loop.
 
 2. **Automated lead management + itinerary generation (in progress):**
-A platform that instruments WhatsApp first contact with leads, suggests follow-ups via LLM, generates itineraries by pulling from our catalogue, and pushes them through CRM for distribution. The travel lead funnel rebuilt with AI inside every step — from first message to closed booking.
+A platform that instruments WhatsApp first contact with leads, suggests follow-ups via LLM, generates itineraries by pulling from our catalogue, and pushes them through CRM for distribution. The travel lead funnel rebuilt with AI inside every step, from first message to closed booking.
 
 3. **This bot (AI Builder):**
-Built with Claude Code, running on Gemma 4 (Apache 2.0, released two weeks ago) with Gemini as fallback, on Next.js + Vercel. 73K-token knowledge base, streaming interface, full chat history. The post said "send me what you've built with AI" — this bot is that submission.`,
+Built with Claude Code, running on Gemma 4 (Apache 2.0, released two weeks ago) with Gemini as fallback, on Next.js + Vercel. 73K-token knowledge base, streaming interface, full chat history. The post said "send me what you've built with AI", this bot is that submission.`,
 
   "What tools and technologies do you use in your AI work?": `**Here's the stack I use day to day, picked for what holds up in production.**
 
