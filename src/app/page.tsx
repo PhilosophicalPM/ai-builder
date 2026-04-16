@@ -137,9 +137,9 @@ Scapia eval bot (70% deflection, self-sustaining KB loop). Automated lead manage
 4.5 years in data science (MuSigma, Flipkart supply chain ML, William O'Neil quant analysis) — I understand evaluation, data quality, and model limitations. That's the difference between shipping AI that works in production and shipping demos that break on real data.
 
 4. **Razorpay is structurally right:**
-Payments monetise trust, not attention — they survive the disruption. Rails are public utility (NPCI), so the leverage lives in rebuilding workflows on top. And the team's no-hierarchy, ship-directly setup matches how I actually want to work — building without being slowed by designations or reporting layers.
+Payments monetise trust, not attention so they should survive the disruption. Rails are public utility (NPCI), so the leverage lives in rebuilding workflows on top. And the team's no-hierarchy, ship-directly setup matches how I actually want to work — building without being slowed by designations or reporting layers.
 
-TLDR — builders win, trust survives, I'm shipping on this thesis today.`,
+TLDR — builders win, trust should survive, and I'm shipping on this thesis today.`,
 };
 
 function getTime() {
