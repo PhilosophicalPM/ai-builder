@@ -140,6 +140,70 @@ If asked about failures or projects that didn't work out, be honest but do NOT f
 
 ${knowledgeBase}`;
 
+// Gemini context cache for the 92k-token system prompt. Pinned to a versioned
+// model (gemini-2.5-flash) because caches are tied to a specific model version.
+// The cache is created lazily on first use and refreshed when <5 min remain on
+// its TTL. One in-flight creation is deduped via cacheCreationPromise so
+// concurrent requests don't create duplicate caches.
+const CACHE_MODEL = "gemini-2.5-flash";
+const CACHE_TTL_SECONDS = 3600;
+const CACHE_REFRESH_MARGIN_MS = 5 * 60 * 1000;
+let cachedContentName: string | null = null;
+let cacheExpiresAt = 0;
+let cacheCreationPromise: Promise<string | null> | null = null;
+
+async function getOrCreateCache(): Promise<string | null> {
+  const now = Date.now();
+  if (cachedContentName && now < cacheExpiresAt - CACHE_REFRESH_MARGIN_MS) {
+    return cachedContentName;
+  }
+  if (cacheCreationPromise) return cacheCreationPromise;
+  cacheCreationPromise = (async () => {
+    try {
+      console.log(`Creating Gemini context cache (${CACHE_MODEL})`);
+      const created = await genai.caches.create({
+        model: CACHE_MODEL,
+        config: {
+          systemInstruction: SYSTEM_PROMPT,
+          ttl: `${CACHE_TTL_SECONDS}s`,
+          displayName: "ai-builder-system-prompt",
+        },
+      });
+      if (!created.name) {
+        console.error("Cache created but name missing");
+        cachedContentName = null;
+        cacheExpiresAt = 0;
+        return null;
+      }
+      cachedContentName = created.name;
+      cacheExpiresAt = Date.now() + CACHE_TTL_SECONDS * 1000;
+      console.log(`Cache created: ${created.name}`);
+      return created.name;
+    } catch (e) {
+      const err = e as { message?: string };
+      console.error("Cache creation failed:", err.message);
+      cachedContentName = null;
+      cacheExpiresAt = 0;
+      return null;
+    } finally {
+      cacheCreationPromise = null;
+    }
+  })();
+  return cacheCreationPromise;
+}
+
+// Warm the cache at module load so the first real request doesn't pay the
+// creation cost. Fire-and-forget — errors are already logged inside the helper.
+// Skipped during `next build` (Next.js imports route modules to collect
+// metadata; we don't want a throwaway cache per deploy) and when no API key is
+// configured (e.g., local dev without a key).
+if (
+  process.env.GEMINI_API_KEY &&
+  process.env.NEXT_PHASE !== "phase-production-build"
+) {
+  void getOrCreateCache();
+}
+
 // Simple in-memory rate limiter per IP
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
 const MAX_REQUESTS_PER_HOUR = 30;
@@ -237,19 +301,96 @@ export async function POST(req: NextRequest) {
       let succeeded = false;
       const attemptedModels: string[] = [];
 
-      // Phase 1: Try OpenRouter Gemma 4 (free tier — no per-token input rate limit,
-      // unlike Google AI Studio which caps Gemma at ~15-16k input tokens/min and our
-      // 92k-token KB blows through that on every call).
+      // Phase 1: Google GenAI (Gemini) — primary. Handles the full 92k-token KB
+      // reliably within free-tier limits and has consistent TTFT. The primary
+      // model (CACHE_MODEL) uses explicit context caching so the system prompt
+      // isn't reprocessed on every call. Fallback models run uncached because
+      // caches are model-version-pinned.
+      const geminiModels = [
+        CACHE_MODEL,
+        "gemini-flash-latest",
+        "gemini-pro-latest",
+        "gemini-2.5-flash-lite",
+      ];
+      for (const model of geminiModels) {
+        attemptedModels.push(model);
+        let cacheNameForThisAttempt: string | null = null;
+        try {
+          if (model === CACHE_MODEL) {
+            cacheNameForThisAttempt = await getOrCreateCache();
+          }
+          console.log(
+            `Trying Gemini model: ${model}${cacheNameForThisAttempt ? " (cached)" : ""}`
+          );
+          const response = await genai.models.generateContentStream({
+            model,
+            config: cacheNameForThisAttempt
+              ? {
+                  cachedContent: cacheNameForThisAttempt,
+                  maxOutputTokens: 2048,
+                }
+              : {
+                  systemInstruction: SYSTEM_PROMPT,
+                  maxOutputTokens: 2048,
+                },
+            contents: allContents,
+          });
+
+          for await (const chunk of response) {
+            const text = chunk.text;
+            if (text) {
+              const encoded = text.replace(/\n/g, "{{NEWLINE}}");
+              controller.enqueue(encoder.encode(`data: ${encoded}\n\n`));
+            }
+          }
+
+          console.log(`Success with Gemini: ${model}`);
+          succeeded = true;
+          break;
+        } catch (error: unknown) {
+          const err = error as { message?: string };
+          console.error(`${model} failed:`, err.message);
+          // If the cached attempt failed, invalidate so the next request
+          // recreates it — the server-side cache may have expired or the
+          // reference may be stale.
+          if (cacheNameForThisAttempt) {
+            cachedContentName = null;
+            cacheExpiresAt = 0;
+          }
+          continue;
+        }
+      }
+
+      // Phase 2: OpenRouter Gemma 4 — fallback only. Free tier is usually
+      // saturated, so we cap each attempt with a hard timeout and a stream-idle
+      // timeout (OpenRouter sends ": OPENROUTER PROCESSING" keepalives that can
+      // otherwise hang the connection indefinitely).
       const openrouterKey = process.env.OPENROUTER_API_KEY;
       const openrouterModels = [
         "google/gemma-4-26b-a4b-it:free",
         "google/gemma-4-31b-it:free",
       ];
+      const OR_HARD_CAP_MS = 8000;
+      const OR_STREAM_IDLE_MS = 4000;
       if (openrouterKey && !succeeded) {
         for (const model of openrouterModels) {
           attemptedModels.push(model);
+          const abortController = new AbortController();
+          const hardTimer = setTimeout(
+            () => abortController.abort(),
+            OR_HARD_CAP_MS
+          );
+          let idleTimer: ReturnType<typeof setTimeout> | null = null;
+          const armIdle = () => {
+            if (idleTimer) clearTimeout(idleTimer);
+            idleTimer = setTimeout(
+              () => abortController.abort(),
+              OR_STREAM_IDLE_MS
+            );
+          };
           try {
             console.log(`Trying OpenRouter model: ${model}`);
+            armIdle();
             const orResponse = await fetch(
               "https://openrouter.ai/api/v1/chat/completions",
               {
@@ -274,6 +415,7 @@ export async function POST(req: NextRequest) {
                   stream: true,
                   max_tokens: 2048,
                 }),
+                signal: abortController.signal,
               }
             );
 
@@ -293,6 +435,7 @@ export async function POST(req: NextRequest) {
             const decoder = new TextDecoder();
             let buffer = "";
             let receivedAny = false;
+            armIdle();
 
             while (true) {
               const { done, value } = await reader.read();
@@ -310,6 +453,7 @@ export async function POST(req: NextRequest) {
                   const text = parsed.choices?.[0]?.delta?.content;
                   if (text) {
                     receivedAny = true;
+                    armIdle();
                     const encoded = text.replace(/\n/g, "{{NEWLINE}}");
                     controller.enqueue(
                       encoder.encode(`data: ${encoded}\n\n`)
@@ -329,50 +473,15 @@ export async function POST(req: NextRequest) {
               console.error(`OpenRouter ${model} returned empty stream`);
             }
           } catch (e) {
-            const err = e as { message?: string };
-            console.error(`OpenRouter ${model} exception:`, err.message);
-          }
-        }
-      }
-
-      // Phase 2: Fall through to Google GenAI (Gemini) if OpenRouter didn't serve.
-      // Gemini models handle the full 92k-token KB within their free-tier limits.
-      if (!succeeded) {
-        const geminiModels = [
-          "gemini-flash-latest",
-          "gemini-2.5-flash",
-          "gemini-pro-latest",
-          "gemini-2.5-flash-lite",
-        ];
-        for (const model of geminiModels) {
-          attemptedModels.push(model);
-          try {
-            console.log(`Trying Gemini model: ${model}`);
-            const response = await genai.models.generateContentStream({
-              model,
-              config: {
-                systemInstruction: SYSTEM_PROMPT,
-                maxOutputTokens: 2048,
-              },
-              contents: allContents,
-            });
-
-            for await (const chunk of response) {
-              const text = chunk.text;
-              if (text) {
-                const encoded = text.replace(/\n/g, "{{NEWLINE}}");
-                controller.enqueue(encoder.encode(`data: ${encoded}\n\n`));
-              }
+            const err = e as { message?: string; name?: string };
+            if (err.name === "AbortError") {
+              console.error(`OpenRouter ${model} aborted (timeout)`);
+            } else {
+              console.error(`OpenRouter ${model} exception:`, err.message);
             }
-
-            console.log(`Success with Gemini: ${model}`);
-            succeeded = true;
-            break;
-          } catch (error: unknown) {
-            const err = error as { message?: string };
-            console.error(`${model} failed:`, err.message);
-            // Always try the next model on any error — safer than giving up early
-            continue;
+          } finally {
+            clearTimeout(hardTimer);
+            if (idleTimer) clearTimeout(idleTimer);
           }
         }
       }
