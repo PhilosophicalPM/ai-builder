@@ -145,8 +145,8 @@ ${knowledgeBase}`;
 // the primary (2.5-flash) is overloaded, the fallback still skips the 92k-token
 // preprocessing cost. The list is also the Gemini fallback order.
 const CACHE_MODELS = [
-  "gemini-2.5-flash",
   "gemini-2.5-flash-lite",
+  "gemini-2.5-flash",
   "gemini-2.5-pro",
 ];
 const CACHE_TTL_SECONDS = 3600;
@@ -311,9 +311,22 @@ export async function POST(req: NextRequest) {
       // 2.5-flash still lets 2.5-flash-lite / 2.5-pro serve with cached system
       // prompt (fast TTFT preserved). -latest aliases are omitted — they map to
       // the same underlying model as flash/pro and can't be cached.
+      //
+      // Each attempt has a first-token timeout: the Gemini SDK retries on 503
+      // UNAVAILABLE internally and can take ~9s to surface the failure, during
+      // which a healthy fallback could already be streaming. If no content
+      // arrives within FIRST_TOKEN_TIMEOUT_MS, we abort and move on.
+      const FIRST_TOKEN_TIMEOUT_MS = 4000;
       for (const model of CACHE_MODELS) {
         attemptedModels.push(model);
         let cacheNameForThisAttempt: string | null = null;
+        const abortController = new AbortController();
+        const firstTokenTimer = setTimeout(() => {
+          console.log(
+            `${model} aborted — no first token within ${FIRST_TOKEN_TIMEOUT_MS}ms`
+          );
+          abortController.abort();
+        }, FIRST_TOKEN_TIMEOUT_MS);
         try {
           cacheNameForThisAttempt = await getOrCreateCache(model);
           console.log(
@@ -325,17 +338,24 @@ export async function POST(req: NextRequest) {
               ? {
                   cachedContent: cacheNameForThisAttempt,
                   maxOutputTokens: 2048,
+                  abortSignal: abortController.signal,
                 }
               : {
                   systemInstruction: SYSTEM_PROMPT,
                   maxOutputTokens: 2048,
+                  abortSignal: abortController.signal,
                 },
             contents: allContents,
           });
 
+          let gotFirstToken = false;
           for await (const chunk of response) {
             const text = chunk.text;
             if (text) {
+              if (!gotFirstToken) {
+                clearTimeout(firstTokenTimer);
+                gotFirstToken = true;
+              }
               const encoded = text.replace(/\n/g, "{{NEWLINE}}");
               controller.enqueue(encoder.encode(`data: ${encoded}\n\n`));
             }
@@ -354,6 +374,8 @@ export async function POST(req: NextRequest) {
             cacheByModel.set(model, { name: null, expiresAt: 0 });
           }
           continue;
+        } finally {
+          clearTimeout(firstTokenTimer);
         }
       }
 
